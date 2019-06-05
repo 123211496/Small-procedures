@@ -1,0 +1,25 @@
+<view class='container'>
+  <view class='header'>
+    <block>
+      <view class='header-img'>
+        <text class='header-bt'>云酷智能·月卡</text>
+        <text class='header-text'>开通后，每日最多免费充电{{maxHour}}小时、消费{{maxCost}}元</text>
+        <text class='header-text2'>有限期30天</text>
+      </view>
+    </block>
+  </view>
+  <text class='leix'>购买类型</text>
+  <block wx:for="{{items}}" wx:key="item">
+      <view class='content'>
+        <view class='conten-img-yi' data-price='{{item.price}}'  data-id="{{item.id}}" bindtap='clickcolor' style="background-image:url({{item.id==currentItemId?'http://admin.gzyunku.com/content_sel.png':'http://admin.gzyunku.com/yueka-yi.png'}});border-radius:20%">
+        <!--background-color:{{item.id==currentItemId?'#E5F9F0':'#FFFFFF'}}-->
+          <text class='content-money-yi'>{{item.price}}元</text>
+          <text class='content-present-yi' wx:if="{{item.cardType=='month'}}">有效期/月</text>
+          <text class='content-present-yi' wx:elif="{{item.cardType=='season'}}">有效期/季度</text>
+          <text class='content-present-yi' wx:elif="{{item.cardType=='half'}}">有效期/半年</text>
+          <text class='content-present-yi' wx:elif="{{item.cardType=='year'}}">有效期/年</text>
+        </view>
+      </view>
+  </block>
+  <button class='buttom'  data-clickid="{{cardid}}" bindtap='button'>确认支付￥{{price}}</button>
+</view>

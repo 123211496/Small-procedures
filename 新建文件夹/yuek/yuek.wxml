@@ -1,0 +1,45 @@
+<view class='container '>
+   <!-- <view class='header'>
+      <view class='header-img'>
+        <text class='header-bt'>云酷智能·月卡</text>
+        <text class='header-text'>开通后，每日最多免费充电{{freeChargingTime}}小时、消费{{}}元</text>
+        <text class='header-text2'>有限期30天</text>
+      </view>
+   </view> -->
+   <!-- 月卡状态-->
+   <view class='header-zt'>
+      <view class='header-img-zt'>
+        <text class='header-bt-zt'>云酷智能·月卡</text>
+        <text class='header-text-zt'>今日还可免费充电{{time}}小时、消费{{ption}}元</text>
+        <text class='header-text2-zt'>剩余{{day}}天</text>
+      </view>
+   </view>
+   <text class='leix'>购买类型</text>
+   <view class='content'>
+      <view class='conten-img-yi'>
+         <text class='content-money-yi'>30元</text>
+         <text class='content-present-yi'>有效期/月</text>
+      </view>
+   </view>
+   <view class='content'>
+      <view class='conten-img-yi'>
+         <text class='content-money-yi'>90元</text>
+         <text class='content-present-yi'>有效期/季度</text>
+      </view>
+   </view>
+   <view class='content'>
+      <view class='conten-img-yi'>
+         <text class='content-money-yi'>180元</text>
+         <text class='content-present-yi'>有效期/半年</text>
+      </view>
+   </view>
+   <view class='content'>
+      <view class='conten-img-yi'>
+         <text class='content-money-yi'>360元</text>
+         <text class='content-present-yi'>有效期/年</text>
+      </view>
+   </view>
+   <button class='buttom'>确认支付￥30</button>
+
+   
+</view>

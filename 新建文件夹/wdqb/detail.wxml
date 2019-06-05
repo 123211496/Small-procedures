@@ -1,0 +1,52 @@
+<view class="container">
+  <view class='content'>
+    <block wx:for="{{items}}" wx:key="{{item}}" wx:if="{{item.type=='red'}}">
+      <view class='content-yi'>
+        <view class='content-yi-left'>
+          <text class='yi-left-ye'>红包</text>
+          <text class='yi-left-sj'>充电时间：{{item.recordDate}}</text>
+        </view>
+        <view class='money'>
+          <text class='money-right' style='color:{{item.posNeg=="pos"?"#25D189":"#FF6262"}}'>{{item.posNeg=='pos'?'+':'-'}}{{item.amount}}元</text>
+        </view>
+      </view>
+    </block>
+    <block wx:for="{{items}}" wx:key="{{item}}" wx:if="{{item.type=='rec'}}">
+      <view class='content-yi'>
+        <view class='content-yi-left'>
+          <text class='yi-left-ye'>充值</text>
+          <text class='yi-left-sj'>充电时间：{{item.recordDate}}</text>
+        </view>
+        <view class='money'>
+          <text class='money-right' style='color:{{item.posNeg=="pos"?"#25D189":"#FF6262"}}'>{{item.posNeg=='pos'?'+':'-'}}{{item.amount}}元</text>
+        </view>
+      </view>
+    </block>
+    <block wx:for="{{items}}" wx:key="{{item}}" wx:if="{{item.type=='ded'}}">
+      <view class='content-yi'>
+        <view class='content-yi-left'>
+          <text class='yi-left-ye'>扣款</text>
+          <text class='yi-left-sj'>充电时间：{{item.recordDate}}</text>
+        </view>
+        <view class='money'>
+          <text class='money-right' style='color:{{item.posNeg=="pos"?"#25D189":"#FF6262"}}'>{{item.posNeg=='pos'?'+':'-'}}{{item.amount}}元</text>
+        </view>
+      </view>
+    </block>
+    <block wx:for="{{items}}" wx:key="{{item}}" wx:if="{{item.type=='giv'}}">
+      <view class='content-yi'>
+        <view class='content-yi-left'>
+          <text class='yi-left-ye'>赠送</text>
+          <text class='yi-left-sj'>充电时间：{{item.recordDate}}</text>
+        </view>
+        <view class='money'>
+          <text class='money-right' style='color:{{item.posNeg=="pos"?"#25D189":"#FF6262"}}'>{{item.posNeg=='pos'?'+':'-'}}{{item.amount}}元</text>
+        </view>
+      </view>
+    </block>
+  </view>
+  <view class="content-meiy" hidden='{{reity}}'>
+    <image class='meiy' src='../../img/default_consumption .png' />
+    <text class='meiy-text'>你还没有进行过消费哦~</text>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+/* pages/libs/accredit.wxss */
+.header{
+   margin: 90rpx 0 90rpx 50rpx;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    width: 650rpx;
+    height: 300rpx;
+    line-height: 450rpx;
+}
+.header image {
+    width: 200rpx;
+    height: 200rpx;
+}
+.button{
+  width: 650rpx;
+  height: 88rpx;
+  background: #15CD80;
+  color: #FFFFFF;
+  border-radius: 100rpx;
+  margin-top: 80rpx;
+}
+.text{
+  font-size: 28rpx;
+  width: 600rpx;
+  display: block;
+  margin: 0 auto
+}
+.phone{
+  width: 650rpx;
+  height: 88rpx;
+  background: #15CD80;
+  color: #FFFFFF;
+  border-radius: 100rpx;
+  margin-top: 30rpx;
+  border: none
+}

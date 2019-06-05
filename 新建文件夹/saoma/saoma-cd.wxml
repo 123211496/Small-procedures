@@ -1,0 +1,49 @@
+<view class='container'>
+     <image src='../../img/Charging_bg_charging.png' class='cm-cdz-img'/>
+     <view class='cm-bt'>
+        <text class='cm-cd-sj'>{{settime}}</text>
+        <text class='cm-cd-bt'>充电时长</text>
+     </view>
+     <view class='cm-nr'>
+        <view class='cm-nr-yi'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_cost.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>充电预付</text>
+           </view>
+           <text class='nr-yi-jq'>0.0元</text>
+        </view>
+        <view class='cm-nr-er'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_Balance.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>账户余额</text>
+           </view>
+           <text class='nr-yi-jq'>可用余额{{balance}}元</text>
+        </view>
+        <view class='cm-nr-san'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_vip.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>月卡</text>
+           </view>
+           <text class='nr-san-jq'>剩余{{mcu}}天</text>
+        </view>
+        <view class='cm-nr-si'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_FREE.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>今日免费</text>
+           </view>
+           <text class='nr-yi-jq'>剩余{{freeToHour}}小时{{freeToMin}}分</text>
+        </view>
+        <view class='cm-nr-wu' bindtap='record'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_recording.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>充电记录</text>
+           </view>
+           <view class='nr-wu-jq'>
+               <text class='nr-wu-text'>点击查看</text>
+               <image src='../../img/Lists_enter.png' class='nr-wu-img'/>
+           </view>
+        </view>
+     </view>
+     <text class='jieshu' bindtap='binviewjie' data-name="{{portid}}" data-id="{{deviceid}}" data-time="{{time}}" data-device="{{deviceNumber}}" data-order="{{orderid}}">结束充电</text>
+     <text class='chongzhi' bindtap='binviewchong'>立即充值</text>
+</view>

@@ -1,0 +1,40 @@
+<view class='container'>
+  <view class='content'>
+    <!-- <view class='content-you' bindtap='chengshi'>
+      <image src='../../img/nav_position2.png' class="imgas" />
+      <text class='content-dz'>{{cityt}}</text>
+    </view> -->
+    <view class='content-zhong'>
+      <image src='../../img/nav_search.png' class='search' />
+      <!-- <text class='lanlu'></text> -->
+      <input class='input' type='text' placeholder='输入地址查看充电桩' value='{{textare}}' bindinput="getCode" bindconfirm="binviewxiao"/>
+    </view>
+    <view class='content-zuo' bindtap='binviewxiao'>确定</view>
+  </view>
+  <view class='conten-nr'>
+    <text class='conten-text'>常用地址</text>
+    <!-- <block > -->
+      <view  class="content-cy-text" data-id="{{id}}" hidden="{{replt}}" data-name="{{address}}" bindtap='dianji'>
+        <view class='conten-cy-yexy'>
+          <text class='conten-cy-yi'>{{areaName}}</text>
+          <image class='conten-cy-er' src="{{isdef=='Y'?'../../img/morendiz.png':''}}" />
+          <!-- <text class='conten-cy-er'>{{item}}</text> -->
+        </view>
+        <view class='conten-cy-san'>{{address}}</view>
+      </view>
+      <view class='content-gh-xia' bindtap='binviegeng' hidden="{{rety}}">
+        <text class='content-gh'>更换地址</text>
+        <image src='../../img/Lists_enter.png' class='content-gh-img' />
+      </view>
+    <!-- </block> -->
+    <view  class="content-tj" hidden="{{reple}}">
+      <image src='../../img/default_address.png' class='content-tj-img' />
+      <view class='content-tj-xia' bindtap='binviewchang'>
+        <image src='../../img/address_jia.png' class='content-xia-img' />
+        <text class='content-xia-text'>快速添加常用地址</text>
+      </view>
+    </view>
+
+
+  </view>
+</view>

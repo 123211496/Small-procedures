@@ -1,0 +1,79 @@
+/* pages/saoma/saoma-js-list.wxss */
+page{
+  display: block;
+  background-color: #FFFFFF;
+}
+.jies-img{
+  height: 132rpx;
+  width: 618rpx;
+  margin: 92rpx 0 0 66rpx;
+}
+.content{
+  margin-top: 61rpx;
+}
+.cm-nr-yi{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.nr-yi-zuo{
+  float: left;
+}
+.nr-yi-img{
+  width: 42rpx;
+  height: 42rpx;
+  display:block;
+  float: left;
+  margin: 24rpx 0 0 38rpx;
+}
+.nr-yi-text{
+  font-size: 28rpx;
+  color: #333333;
+  float: left;
+  display: block;
+  line-height: 87rpx;
+  margin-left: 19rpx;
+}
+.nr-yi-jq{
+  float: right;
+  display: block;
+  font-size: 28rpx;
+  color: #FD814F;
+  line-height: 87rpx;
+  margin-right: 36rpx;
+}
+.cm-nr-er{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.nr-jq{
+  float: right;
+  display: block;
+  font-size: 28rpx;
+  color: #15CD80;
+  line-height: 87rpx;
+  margin-right: 36rpx;
+}
+.guanbi{
+  margin-top: 41rpx;
+  width: 560rpx;
+  height: 94rpx;
+  display: block;
+  border: 3rpx solid #15CD80;
+  font-size: 32rpx;
+  color: #15CD80;
+  margin-left: 95rpx;
+  border-radius: 100rpx;
+  line-height: 94rpx;
+  text-align: center;
+}
+
+/*广告*/
+.guanggao{
+  margin-top: 93rpx;
+  width: 690rpx;
+  height: 200rpx;
+  border: 1rpx solid #ECECEC;
+  margin: 93rpx 30rpx 77rpx 30rpx;
+}

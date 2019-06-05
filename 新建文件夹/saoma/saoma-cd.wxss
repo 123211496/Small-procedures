@@ -1,0 +1,132 @@
+page{
+  display: block;
+  background-color: #FFFFFF;
+}
+.cm-cdz-img{
+  height: 132rpx;
+  width: 618rpx;
+  margin: 92rpx 0 0 66rpx;
+}
+.cm-cd-sj{
+  font-size: 42rpx;
+  color: #ED8B00;
+  display: block;
+  text-align: center;
+  margin-top: 49rpx;
+}
+.cm-cd-bt{
+  font-size: 28rpx;
+  color: #ED8B00;
+  display: block;
+  text-align: center;
+  margin-top: 8rpx;
+}
+.cm-nr{
+  margin-top: 30rpx;
+}
+.cm-nr-yi{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.nr-yi-zuo{
+  float: left;
+}
+.nr-yi-img{
+  width: 42rpx;
+  height: 42rpx;
+  display:block;
+  float: left;
+  margin: 24rpx 0 0 38rpx;
+}
+.nr-yi-text{
+  font-size: 28rpx;
+  color: #333333;
+  float: left;
+  display: block;
+  line-height: 87rpx;
+  margin-left: 19rpx;
+}
+.nr-yi-jq{
+  float: right;
+  display: block;
+  font-size: 28rpx;
+  color: #FD814F;
+  line-height: 87rpx;
+  margin-right: 36rpx;
+}
+.cm-nr-er{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.cm-nr-san{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.nr-san-jq{
+  float: right;
+  display: block;
+  font-size: 28rpx;
+  color: #15CD80;
+  line-height: 87rpx;
+  margin-right: 36rpx;
+}
+.cm-nr-si{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.cm-nr-wu{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.nr-wu-jq{
+  float: right;
+  display: block;
+  font-size: 28rpx;
+  color: #FD814F;
+  line-height: 87rpx;
+}
+.nr-wu-img{
+  width: 17rpx;
+  height: 28rpx;
+  display: block;
+  float: right;
+  margin-top: 31rpx;
+  margin-right: 37rpx;
+}
+.nr-wu-text{
+  font-size: 28rpx;
+  color: #969FA9;
+  margin-right: 14rpx;
+}
+.jieshu{
+  margin-top: 40rpx;
+  display: block;
+  margin-left: 95rpx;
+  width: 560rpx;
+  height: 94rpx;
+  background-color: #15CD80;
+  border-radius: 100rpx;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 94rpx;
+}
+.chongzhi{
+  margin-top: 32rpx;
+  display: block;
+  margin-left: 95rpx;
+  width: 560rpx;
+  height: 94rpx;
+  border: 3rpx solid #15CD80;
+  border-radius: 100rpx;
+  text-align: center;
+  line-height: 94rpx;
+  font-size: 32rpx;
+  color: #15CD80;
+  margin-bottom:100rpx;
+}

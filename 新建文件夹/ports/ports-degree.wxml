@@ -1,0 +1,111 @@
+<view class='container'>
+   <view class='herder'>  <!-- wx:for="{{items}}" wx:key="item" -->
+    <view class='herder-bt'>
+      <text class='herder-bt-m'>设备名称一</text>
+      <text class='herder-bt-s'>端口数：12</text>
+    </view>
+    <view class='header-content'>
+      <block wx:if="{{item.portState==0}}" wx:for="{{items}}" wx:key="iteme" >
+          <view class='header-content-yi left up' data-id='{{item.id}}' style="width=160.5rpx;background-image:url({{item.id==currentItemId?'http://admin.gzyunku.com/duankou-xuan.png':'http://admin.gzyunku.com/facility-leisure.png'}});" data-texts="{{item.portState}}" bindtap='clickbrg'>
+        <text class='header-content-number'>{{item.protNumber}}号</text>
+        <text class='zhuangtai kong' id='clear' data-text="{{item.portState}}">{{texta}}</text>
+      </view>
+      </block>
+      <block wx:if="{{item.portState==1 || item.portState==2}}" wx:for="{{items}}" wx:key="iteme">
+          <view class='header-content-yi left up' data-id='{{item.id}}' style=' background-image:url(http://admin.gzyunku.com/shebei-chong.png);' data-texts="{{item.portState}}" bindtap='clickbrg'>
+        <text class='header-content-number' style='color:#FF9D00'>{{item.protNumber}}号</text>
+        <text class='zhuangtai kong' id='clear' data-text="{{item.portState}}" style='color:#FF9D00'>{{textb}}</text>
+      </view>
+      </block>
+      <block wx:if="{{item.portState==3 || item.portState==4 || item.portState==5 || item.portState==6}}" wx:for="{{items}}" wx:key="iteme">
+          <view class='header-content-yi left up' data-id='{{item.id}}' style='  background-image:url(http://admin.gzyunku.com/shebei-gu.png);' data-texts="{{item.portState}}"bindtap='clickbrg' >
+        <text class='header-content-number' style='color:#E0E0E0 '>{{item.protNumber}}号</text>
+        <text class='zhuangtai kong' id='clear' data-text="{{item.portState}}" style='color:#FA544C'>{{textc}}</text>
+      </view>
+      </block>
+    </view>
+  </view>
+  <view class='content-centre'>
+    <view class='content-centre-bt'>
+      <text class='content-centre-bt-text'>充电时长</text>
+    </view>
+    <view class='content-mian'>
+      <swiper indicator-dots="{{indicatorDots}}" current="{{currentTab}}" style='height:188rpx'>
+        <swiper-item>
+          <view class="content-mian-bt content-mian-left" style="background-image: url({{'10'==currentItemid?'http://admin.gzyunku.com/content_sel.png':'http://admin.gzyunku.com/content_seel.png'}});" data-id='10' bindtap='duration'>
+            <text class='conten-mian-text-m'>充满自停</text>
+          </view>
+          <view class="content-mian-bt"style="background-image: url({{'1'==currentItemid?'http://admin.gzyunku.com/content_sel.png':'http://admin.gzyunku.com/content_seel.png'}});" data-id='1' bindtap='duration'>
+            <text class='conten-mian-text'>1h</text>
+          </view>
+          <view class="content-mian-bt"style="background-image: url({{'2'==currentItemid?'http://admin.gzyunku.com/content_sel.png':'http://admin.gzyunku.com/content_seel.png'}});" data-id='2' bindtap='duration'>
+            <text class='conten-mian-text'>2h</text>
+          </view>
+          <view class="content-mian-bt" style="background-image: url({{'3'==currentItemid?'http://admin.gzyunku.com/content_sel.png':'http://admin.gzyunku.com/content_seel.png'}});" data-id='3' bindtap='duration'>
+            <text class='conten-mian-text'>3h</text>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class="content-mian-bt content-mian-left" style="background-image: url({{'6'==currentItemid?'http://admin.gzyunku.com/content_sel.png':'http://admin.gzyunku.com/content_seel.png'}});" data-id='6' bindtap='duration'>
+            <text class='conten-mian-text'>6h</text>
+          </view>
+          <view class="content-mian-bt" style="background-image: url({{'9'==currentItemid?'http://admin.gzyunku.com/content_sel.png':'http://admin.gzyunku.com/content_seel.png'}});" data-id='9' bindtap='duration'>
+            <text class='conten-mian-text'>9h</text>
+          </view>
+        </swiper-item>
+      </swiper>
+    </view>
+  </view>
+  <view class='content-money'>
+    <view style='height:120rpx'>
+      <view class='content-zhi'></view>
+      <text class='content-money-text'>占位费：1元/小时，每天封顶24元，免费停放0.5小时/次。</text>
+      <view class='content-zhi-two'></view>
+      <text class='content-two-list'>收费方式</text>
+      <text class='content-two-text'>10元/最低消费     </text>
+    </view>
+    <view class='content-box'>
+      <view class='content-li ui-li'  data-id='{{item.id}}'>
+        <text class='content-li-time'>{{meterPrice}}元/度</text>
+      </view>
+    </view>
+  </view>
+  <button type='button' class='button' data-tedl="{{portid}}" data-id='{{deviceId}}' bindtap='binviewbut' data-name="{{result}}" data-name="{{deviceNumber}}">立即充电</button>
+</view>
+<!-- <view class='container'>
+   <view class='header'>
+      <view class='header-bt'>
+          <text class='header-bt-left'>设备名称一</text>
+          <text class='header-bt-right'>端口数：12</text>
+      </view> 
+      <view class=''>
+         <view class='li'>
+            <view class='img one'>
+               <text class='li-number'>1号</text>
+               <text class='li-text'>空闲</text>
+            </view>
+         </view>
+         <view class='li'>
+            <view class='img'>
+               <text class='li-number'>1号</text>
+               <text class='li-text'>空闲</text>
+            </view>
+         </view>
+         <view class='li'>
+            <view class='img'>
+               <text class='li-number'>1号</text>
+               <text class='li-text'>空闲</text>
+            </view>
+         </view>
+         <view class='li'>
+            <view class='img'>
+               <text class='li-number'>1号</text>
+               <text class='li-text'>空闲</text>
+            </view>
+         </view>
+      </view>
+   </view>
+   <swiper class='time' indicator-dots="{{dots}}">
+       <text class='time-bt'>充电时长</text>
+   </swiper>
+</view> -->

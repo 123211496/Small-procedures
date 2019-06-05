@@ -1,0 +1,518 @@
+/**index.wxss**/
+.userinfo {
+ display: flex;
+}
+
+.herder{
+  display: flex;
+  background: #15cd80;
+  height: 103rpx;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header-img{
+  width: 125rpx;
+  height: 103rpx;
+}
+.img{
+  display: flex;
+  width: 67rpx;
+  height:67rpx;
+  margin:15rpx 28rpx 21rpx 31rpx;
+  border-radius:100rpx;
+  overflow: hidden;
+  border: 1rpx solid #FFFFFF;
+}
+.input{
+  display: flex;
+  height: 67rpx;
+  border-radius: 100rpx;
+  color: #999999;
+  border: none;
+  font-size: 24rpx;
+  padding-left: 16.5rpx;
+}
+.search {
+  float: left;
+  margin-top: 19rpx;
+  width: 32rpx;
+  height: 32rpx;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+.nr-search{
+  display: flex;
+  height: 67rpx;
+  width:488rpx;
+  border: 1px solid #FFF;
+  border-radius: 100rpx;
+  background: #FFFFFF;
+  margin: 18rpx 0 18rpx 0;
+}
+.location{
+  width: 141rpx;
+  display:flex;
+  margin-left: 10rpx;
+}
+.location-img{
+  display: flex;
+  width: 19rpx;
+  height: 25rpx;
+  margin:39rpx 0 0 0;
+}
+.location-text{
+  font-size: 28rpx;
+  color: #FFFFFF;
+  margin: 33rpx 14rpx 30rpx
+}
+/*订单消息*/
+.content-dd{
+  position: fixed;
+  top: 140rpx;
+  left: 30rpx;
+  width: 690rpx;
+  height: 88rpx;
+  background-color: #FFFFFF;
+  border-radius: 100rpx;
+}
+.content-dd-img{
+  width: 34rpx;
+  height: 34rpx;
+  margin-left: 36rpx;
+  display: block;
+  float: left;
+  margin-top: 27rpx;
+}
+.content-dd-text{
+  font-size: 28rpx;
+  color: #333333;
+  margin-left: 23rpx;
+  line-height: 88rpx;
+  display: block;
+  float: left;
+}
+/*地图*/
+.mian{
+  height:100%;
+  position:absolute;
+  top:103rpx;
+  width:100%;
+
+}
+/*扫码*/
+.content-di{
+  position: fixed;
+  bottom: 80rpx;
+  height: 112rpx;
+}
+
+.content-di-dw{
+  width: 88rpx;
+  height: 88rpx;
+  margin-left: 30rpx;
+  float:left;
+  display:block;
+  margin-top:15rpx
+}
+.content-di-sm{
+  width:364rpx;
+  height: 112rpx;
+  margin-left: 75rpx;
+  float:left;
+  display:block;
+
+}
+.content-di-xx{
+  width: 88rpx;
+  height: 88rpx;
+  margin-left: 75rpx;
+  float:left;
+  display:block;
+  margin-top:15rpx
+}
+
+/*充电桩选择*/
+.cs{
+  font-size: 26rpx;
+  color: #989898;
+  display:blcok;
+  margin-left: 10rpx;
+  float: left;
+  margin-top:10rpx
+}
+.showcdxx{
+  display: none;
+}
+.content-cdxx{
+  position: fixed;
+  bottom: 80rpx;
+  height: 174rpx;
+  width: 690rpx;
+  background-color: #FFFFFF;
+  margin-left: 30rpx;
+  border-radius: 16rpx;
+}
+.cdxx-zuo{
+  float: left;
+  width: 581rpx;
+  height: 174rpx;
+}
+.cdxx-zuo-bt{
+  display:block;
+  font-size: 36rpx;
+  color: #333333;
+  margin-top: 18rpx;
+  margin-left: 32rpx;
+}
+.cdxx-jl{
+  display: block;
+  font-size: 26rpx;
+  color: #939393;
+  float: left;
+  margin-top: 3rpx;
+  margin-left: 32rpx;
+}
+.cdxx-wz-zhong{
+  width: 2rpx;
+  height: 24rpx;
+  background-color: #C0C0C0;
+  display: block;
+  float: left;
+  margin:9rpx 9rpx 0 14rpx
+}
+.cdxx-wz{
+  font-size: 26rpx;
+  color: #BBBBBB;
+  display: block;
+  float: left;
+  margin-top: 3rpx;
+}
+.cdxx-zt{
+  clear: both;
+}
+.cdxx-kx{
+  float: left;
+  margin-top:10rpx;
+
+}
+.cdxx-kx-dian{
+  width:12rpx;
+height:12rpx;
+display:block;
+background-color:#00C371;
+border-radius:100rpx;
+margin-top:22rpx;
+margin-left:34rpx;
+float:left;
+
+}
+.cdxx-kx-text{
+ font-size:26rpx;
+color:#00C371;
+display:blcok;
+margin-left:10rpx;
+float:left;
+margin-top:10rpx
+}
+.cdxx-cd{
+  float: left;
+  margin-top:10rpx;
+}
+.cdxx-cd-dian{
+  width: 12rpx;
+  height: 12rpx;
+  display:block;
+  background-color: #00C371;
+  border-radius: 100rpx;
+  margin-top: 22rpx;
+  margin-left: 25rpx;
+  float: left;
+}
+.cdxx-cd-text{
+  font-size: 26rpx;
+  color: #EB9A18;
+  display:blcok;
+  margin-left: 10rpx;
+  float: left;
+  margin-top:10rpx
+}
+
+.cdxx-you{
+  float: left;
+  width: 109rpx;
+  height: 114rpx;
+  border-left: 1rpx solid #ECECEC;
+  margin-top: 30rpx;
+}
+.cdxx-img{
+  display: block;
+  width: 17rpx;
+  height: 29rpx;
+  margin-top: 45.5rpx;
+  margin-left: 45.5rpx;
+}
+
+/*红包*/
+.content-hb{
+  background-image: url('http://admin.gzyunku.com/App_hb.png');
+  background-size: 100% 100%;
+  display: none;
+  position: fixed;
+  width: 640rpx;
+  height: 505rpx;
+  top: 300rpx;
+  left: 55rpx;
+}
+.content-hb-bt{
+  margin: 70rpx 136rpx 0 136rpx;
+  display: block;
+  font-size: 46rpx;
+  color: #FFFFFF;
+}
+.content-hb-jy{
+  text-align: center;
+  margin-top:10rpx; 
+}
+.content-hb-money{
+  display: block;
+  float: left;
+  font-size: 110rpx;
+  color: #FEE991;
+  margin-left: 276rpx;
+}
+.content-hb-yuan{
+  display: block;
+  float: left;
+  margin-top: 76rpx;
+  font-size: 36rpx;
+  color: #FEE991;
+  margin-left: 7rpx;
+}
+.content-hb-text{
+  display: block;
+  clear: both;
+  font-size: 26rpx;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 22rpx;
+}
+
+
+/*帮助*/
+.shore{
+  display: none;
+}
+.zbz{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 998;
+}
+.zbz-nr{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.shuom{
+  height: 100rpx;
+  display: block;
+  background:  #FAFAFB;
+  font-size: 36rpx;
+  color: #000000;
+  text-align: center;
+  line-height: 100rpx;
+  border-bottom:1px solid #C0C0C0;
+  margin-top: 1rpx;
+}
+.zbz-an-si{
+  margin-top: 12rpx;
+}
+
+/*用户协议*/
+.showpsre{
+  display: none;
+}
+.yonghu{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.cosntent{
+  overflow: auto;
+  height:540rpx;
+}
+.conten-xy{
+  width: 640rpx;
+  height: 820rpx;
+  position: relative;
+  margin-top: -410rpx;
+  margin-left: -320rpx;
+  background-color: #FFFFFF;
+  top: 50%;
+  left: 50%;
+}
+.yh-xy-bt{
+  font-size: 32rpx;
+  color: #191D21;
+  display: inline-block;
+  /* text-align: center; */
+  margin-top: 53rpx;
+  margin-left: 260rpx;
+}
+.yh-xy-content{
+  width: 498rpx;
+  height: 576rpx;
+  display: block;
+  border:  1rpx solid
+}
+.yh-xy-text{
+  display: block;
+  width: 498rpx;
+  font-size: 30rpx;
+  color: #5A626D;
+  margin-top: 12rpx;
+  margin-left: 71rpx;
+  white-space:normal;
+  word-wrap:break-word;
+}
+.ty-xy{
+ display:block;
+width:640rpx;
+height:92rpx;
+background-color:#15CD80;
+top:728rpx;
+text-align:center;
+line-height:92rpx;
+font-size:32rpx;
+color:#FFFFFF;
+position:absolute;
+
+}
+
+/*弹框*/
+.ts-zbz{
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.tank{
+  width: 560rpx;
+  height: 329rpx;
+  background-color: #FFFFFF;
+  margin-top: 150rpx;
+  margin-left: 95rpx;
+  border-radius: 8rpx;
+}
+.tishi{
+  display: block;
+  font-size: 36rpx;
+  color: #000000;
+  margin-left:244rpx;
+  padding-top: 50rpx;
+}
+.neir{
+  display: block;
+  width: 485rpx;
+  height: 80rpx;
+  margin: 18rpx 0 0 38rpx;
+  font-size: 30rpx;
+  color: #888888;
+  text-align: center;
+}
+.zhidao{
+  display: block;
+  height: 100rpx;
+  border-top: 1rpx solid #E5E5E5;
+  margin-top: 30rpx;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 36rpx;
+  color: #02BB00;
+}
+
+/*余额不足*/
+.ye-zbz{
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.ye-tank{
+  width: 560rpx;
+  height: 329rpx;
+  background-color: #FFFFFF;
+  margin-top: 150rpx;
+  margin-left: 95rpx;
+  border-radius: 8rpx;
+}
+.ye-tishi{
+  display: block;
+  font-size: 36rpx;
+  color: #000000;
+  margin-left:244rpx;
+  padding-top: 50rpx;
+}
+.ye-neir{
+  display: block;
+  width: 485rpx;
+  height: 80rpx;
+  margin: 18rpx 0 0 38rpx;
+  font-size: 30rpx;
+  color: #888888;
+  text-align: center;
+}
+.ye-qx{
+  width: 280rpx;
+  height: 96rpx;
+  display: block;
+  float: left;
+  margin-top: 34rpx;
+  text-align: center;
+  border-right: 1rpx solid #E5E5E5;
+  border-top: 1rpx solid #E5E5E5;
+  line-height: 99rpx;
+}
+.ye-cz{
+  width: 279rpx;
+  height:99rpx;
+  display: block;
+  float: left;
+  border-top: 1rpx solid #E5E5E5;
+  text-align: center;
+  line-height: 99rpx;
+  margin-top: 34rpx;
+}
+.mapnumber{
+  display: none;
+}
+
+.label{
+  width: 254rpx;
+  height: 50rpx;
+  /* opacity: 0.9; */
+  background: #424242;
+  border-radius: 100rpx;
+  font-size: 18rpx;
+  color: #FFFFFF;
+  display: block;
+  /* position: relative; */
+  line-height: 50rpx;
+  text-align: center;
+}

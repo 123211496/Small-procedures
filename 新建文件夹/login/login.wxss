@@ -1,0 +1,105 @@
+pages/logs/logs-list.wxss
+page{
+  background-color: #F5F5F5;
+  height: 100%
+}
+.container{
+  background-color: #F5F5F5;
+  height: 100%
+}
+.content-up{
+  width: 684rpx;
+  height: 529rpx;
+  border-bottom: 1rpx solid #FFFFFF;
+  margin: auto
+}
+.content-up-img{
+  width: 291rpx;
+  height: 247rpx;
+  display: block;
+  padding-top: 77rpx;
+  margin-left: 196rpx;
+
+}
+.content-up-bt{
+  font-size: 36rpx;
+  color: #AEB0B6;
+  text-align: center;
+  margin-top: 14rpx;
+}
+.content-up-text{
+  font-size: 28rpx;
+  color: #AEB0B6;
+  width: 392rpx;
+  height: 80rpx;
+  display: block;
+  margin: 15rpx auto;
+}
+.content-down-bt{
+  font-size: 28rpx;
+  color: #8A8A8A;
+  margin-top: 33rpx;
+  margin-left: 36rpx;
+}
+.content-down-swiper{
+  width: 684rpx;
+  height: 196rpx;
+  background: #FFFFFF;
+  border-radius: 8rpx;
+  margin: 20rpx auto
+}
+.swiper-up{
+  height: 97rpx;
+  border-bottom: #F4F4F4
+}
+.swiper-up-text{
+  font-size: 28rpx;
+  color: #011111;
+  line-height: 97rpx;
+  float: left;
+  margin-left: 41rpx;
+}
+.up-swiper{
+  width:102rpx;
+height:62rpx;
+display:block;
+float:right;
+margin-right: 35rpx;
+margin-top: 23rpx
+}
+
+.swiper-down{
+  height: 98rpx;
+}
+.swiper-down-text{
+  font-size: 28rpx;
+  color: #011111;
+  line-height: 98rpx;
+  float: left;
+  margin-left: 41rpx;
+}
+.down-swiper{
+  width:102rpx;
+height:62rpx;
+display:block;
+float:right;
+margin-right: 35rpx;
+margin-top: 23rpx
+}
+.text{
+  font-size: 28rpx;
+  color: #8A8A8A;
+  margin-left: 39.5rpx;
+}
+.button{
+  height: 94rpx;
+  background: #15CD80;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  border-radius: 0;
+  line-height: 94rpx;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: block
+}

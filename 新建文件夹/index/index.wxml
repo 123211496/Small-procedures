@@ -1,0 +1,102 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <cover-view class="herder">
+      <cover-view class='header-img' bindtap='bindViewGrzx'>
+        <!-- <open-data class='img' type="userAvatarUrl"></open-data> -->
+        <cover-image src='{{images}}' class='img'></cover-image>
+      </cover-view>
+      <cover-view class='nr-search' bindtap='bindViewSite'>
+        <cover-image src='../../img/nav_search.png' class='search' />
+        <cover-view class='input' placeholder='输入地址查看充电桩' type='text' disabled="disabled" />
+      </cover-view>
+      <cover-view class='location' bindtap='citytBox'>
+        <cover-image mode="aspectFill" src='../../img/nav_position.png' class='location-img'>
+        </cover-image>
+        <cover-view class='location-text'>{{cityt}}</cover-view>
+      </cover-view>
+    </cover-view>
+    <view class='mian'>
+      <map id="myMap" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" data-id='{{dataid}}' markers='{{markers}}' controls='{{controls}}' style="width: 100%; height:100%;" bindmarkertap="kertap" bindtap='controltap' bindregionchange="getCenterLocation"
+        show-location></map>
+      <cover-view class='mapnumber'>{{markerId}}</cover-view>
+      <!--扫码支付-->
+      <cover-view class='content-di'>
+        <cover-image class='content-di-dw' src='../../img/map_icon_position.png' bindtap="binwehui" />
+        <cover-image class='content-di-sm' bindtap='showports' src="{{isUnfiOrder==false?'../../img/map_icon_Charging.png':'../../img/saonajie.png'}}" data-id='{{device}}' data-name='{{port}}' data-order="{{orderId}}" data-evice="{{devicenumber}}" data-isUnfir="{{isUnfiOrder}}"
+        />
+        <cover-image class="content-di-xx" bindtap='showState' src="../../img/map_icon_help.png" />
+      </cover-view>
+      <!---充电桩选择-->
+      <cover-view class="content-cdxx {{showcdxx?'showcdxx':'hide'}}" data-port="{{portNumber}}" bindtap='bindViewcdxx' data-id="{{deviceId}}" data-log="{{lng}}" data-lat="{{lat}}" data-name="{{deviceNumber}}">
+        <cover-view class='cdxx-zuo'>
+          <cover-view class='cdxx-zuo-bt'>{{deviceName}}</cover-view>
+          <cover-view class='cdxx-wz-jl'>
+            <cover-view class="cdxx-jl">距离{{distance}}KM</cover-view>
+            <cover-view class='cdxx-wz-zhong'></cover-view>
+            <cover-view class='cdxx-wz'>{{communityName}}</cover-view>
+          </cover-view>
+          <cover-view class='cdxx-zt'>
+            <cover-view class='cdxx-kx'>
+              <cover-view class='cdxx-kx-dian'></cover-view>
+              <cover-view class='cdxx-kx-text'>空闲{{state_yes}}</cover-view>
+            </cover-view>
+            <cover-view class='cdxx-cd'>
+              <cover-view class='cdxx-cd-dian'></cover-view>
+              <cover-view class='cdxx-cd-text'>充电中{{state_no}}</cover-view>
+            </cover-view>
+            <cover-view class='cdxx-cd'>
+              <cover-view class='cdxx-cd-dian'></cover-view>
+              <cover-view class=' cs'>故障{{state_fau}}</cover-view>
+            </cover-view>
+          </cover-view>
+        </cover-view>
+        <cover-view class='cdxx-you'>
+          <cover-image src='../../img/Lists_enter.png' class='cdxx-img' />
+        </cover-view>
+      </cover-view>
+      <!-- 红包  -->
+      <cover-view class='content-hb'>
+        <cover-view class='content-hb-bt'>恭喜获取登陆红包</cover-view>
+        <cover-view class='content-hb-jy'>
+          <cover-view class='content-hb-money'>3</cover-view>
+          <cover-view class='content-hb-yuan'>元</cover-view>
+        </cover-view>
+        <cover-view class='content-hb-text'>有效期：2018.03.16~2018.05.01</cover-view>
+      </cover-view>
+      <!-- 帮助  -->
+      <cover-view class="zbz {{showView?'shore':'hide'}}" bindtap='shuoming'>
+        <cover-view class="zbz-nr">
+          <cover-view class='zbz-an-yi shuom' bindtap='bindViewTap'>使用说明</cover-view>
+          <cover-view class='zbz-an-er shuom' bindtap='bindViewFault'>上报故障</cover-view>
+          <cover-view class='zbz-an-san shuom' bindtap='bindViewHelp'>常见问题</cover-view>
+          <cover-view class="zbz-an-si shuom {{showView?'shore':'show'}}" bindtap='noButton'>取消</cover-view>
+        </cover-view>
+      </cover-view>
+
+      <!-- 提示   -->
+      <cover-view class='ts-zbz'>
+        <cover-view class='tank'>
+          <cover-view class='tishi'>提示</cover-view>
+          <cover-view class='neir'>信号不好，打开蓝牙更快的启动充电设备哦</cover-view>
+          <cover-view class='zhidao'>我知道了</cover-view>
+        </cover-view>
+      </cover-view>
+      <!-- 余额不足 -->
+      <cover-view class='ye-zbz'>
+        <cover-view class='ye-tank'>
+          <cover-view class='ye-tishi'>提示</cover-view>
+          <cover-view class='ye-neir'>您的账户余额不足最低消费金额，请先去充值后使用</cover-view>
+          <cover-view class='ye-qx'>取消</cover-view>
+          <cover-view class='ye-cz'>去充值</cover-view>
+        </cover-view>
+      </cover-view>
+      <!-- <cover-view>该充电桩故障</cover-view> -->
+      <!--订单消息-->
+      <cover-view class='content-dd' bindtap='bindView' hidden="{{rety}}" data-id='{{device}}' data-name='{{port}}' data-order="{{orderId}}" data-evice="{{devicenumber}}">
+        <cover-image src='../../img/App_icon_Notice.png' class='content-dd-img' />
+        <cover-view class='content-dd-text'>您有一个{{order}}订单未处理，点击查看! ></cover-view>
+      </cover-view>
+    </view>
+  </view>
+</view>

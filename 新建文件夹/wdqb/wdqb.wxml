@@ -1,0 +1,46 @@
+<view class='container'>
+    <view class='qb-mx'>
+        <view class='qb-ze'>
+            <view class='ze'>
+               <text class='zebox'>可用总额</text>
+               <text class='zesz'>￥{{totalOverage}}</text>
+            </view>
+            <view class='qbmx'>
+               <text class='qbmx-cz' bindtap='binviechong'>充值</text>
+               <text class='qbmx-mx' bindtap='binvieming'>钱包明细</text>
+            </view>
+        </view>
+        <view class='qb-zens'>
+           <view class='qb-zens-cz' bindtap='binviechong'>
+              <image class='qb-zens-img' src='../../img/wallet_icon_Recharge.png'/>
+              <text class='qb-zens-text'>充值</text>
+              <text class='qb-zens-jq'>￥{{rechargeOverage}}</text>
+           </view>
+           <view class='qb-jg'></view>
+           <view class='qb-zens-zs'>
+              <image class='qb-zens-imgs' src='../../img/wallet_icon_Gift.png'/>
+              <text class='qb-zens-texts'>赠送</text>
+              <text class='qb-zens-jqs'>￥{{handselOverage}}</text>
+           </view>
+        </view>
+    </view>
+    <view class='wdyk'>
+       <text class='wdyk-bt'>我的月卡</text>
+       <view class='wdyk-bj' hidden='{{rety}}'>
+           <text class='wdyk-bj-bt'>还未开通云酷月卡</text>
+           <view class='wdyk-bj-nr'>开通后，每日免费充电<text>8</text>小时</view>
+           <text class='wdyk-bj-an' bindtap='binvieyue'>立即开通</text>
+       </view>
+     <view class='header-img-zt' hidden='{{retys}}' bindtap='binvieyue'>
+        <view style='float:left'>
+          <text class='header-bt-zt'>云酷智能·月卡</text>
+          <text class='header-text-zt'>今日还可免费充电{{time}}小时{{min}}分钟、消费{{ption}}元</text>
+        </view>
+        <text class='header-text2-zt'>剩余{{day}}天</text>
+      </view>
+    </view>
+
+    <!--  广告   -->
+    <view class='guangg'>
+    </view>
+</view>

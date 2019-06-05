@@ -1,0 +1,58 @@
+<view class='container'>
+      <image src='../../img/Charging_bg_End.png' class='jies-img'/>
+    <view class='content'>
+        <view class='cm-nr-yi'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_cost.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>占位费用</text>
+           </view>
+           <text class='nr-yi-jq'>{{occupyingCost}}元</text>
+        </view>
+        <view class='cm-nr-er'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_time.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>占位时间</text>
+           </view>
+           <text class='nr-yi-jq'>{{occupyingTime}}</text>
+        </view>
+        <view class='cm-nr-yi'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_cost.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>充电费用</text>
+           </view>
+           <text class='nr-yi-jq'>{{chargingCost}}元</text>
+        </view>
+        <view class='cm-nr-er'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_time.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>充电时间</text>
+           </view>
+           <text class='nr-yi-jq'>{{chargingTime}}</text>
+        </view>
+        <view class='cm-nr-er'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_Balance.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>账户余额</text>
+           </view>
+           <text class='nr-yi-jq'>可用余额{{accountBalance}}元</text>
+        </view>
+        <view class='cm-nr-er'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_vip.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>月卡</text>
+           </view>
+           <text class='nr-jq'>剩余{{daysRemaining}}天</text>
+        </view>
+        <view class='cm-nr-er'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_FREE.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>今日免费</text>
+           </view>
+           <text class='nr-yi-jq'>剩余{{freeH}}小时{{freeM}}分</text>
+        </view>
+    </view>
+    <text class='guanbi' bindtap='binviewgb'>关闭</text>
+
+    <!--       广告位      -->
+    <view class='guanggao'></view>
+</view>

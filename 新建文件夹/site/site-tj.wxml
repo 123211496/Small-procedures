@@ -1,0 +1,24 @@
+<view class='container'>
+  <view class='header'>
+    <view class='content-zhong'>
+      <image src='../../img/nav_search.png' class='search' />
+      <!-- <text class='lanlu'></text> -->
+      <input class='input' type='text' placeholder='输入地址查看充电桩' value='{{textare}}' bindinput="getCode" bindconfirm="binviewxiao" />
+    </view>
+  </view>
+  <view style='height:100%'>
+    <map id="map" longitude="{{longitude}}" moveToLocation latitude="{{latitude}}" scale="14" markers="{{markers}}" controls="{{controls}}" bindmarkertap="markertap" bindcontroltap='conrtoltap' show-location bindregionchange="getCenterLocation" style="width: 100%; height: 1100px;">
+      <cover-view class='tjdz'>
+        <cover-view class='zuo'>
+          <cover-image src='../../img/address_icon_position .png' class='conten-zuo-img' />
+          <cover-view class='conten-zuo-text'>{{areaName}}</cover-view>
+          <cover-view class='hengxian'></cover-view>
+          <cover-view class='conten-zuo-dz'>{{address}}</cover-view>
+        </cover-view>
+        <cover-view class='you' bindtap='binviewque'>
+          <cover-view class='you-qd'>确定</cover-view>
+        </cover-view>
+      </cover-view>
+    </map>
+  </view>
+</view>

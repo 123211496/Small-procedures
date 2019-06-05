@@ -1,0 +1,118 @@
+/* pages/yuek/yuek.wxss */
+.header{
+  height: 232rpx;
+}
+.header-img{
+  height: 232rpx;
+  display: block;
+  background-size: 100% 100%;
+  background-image:url("http://admin.gzyunku.com/yueka2.png");
+}
+.header-bt{
+  display: block;
+  font-size: 36rpx;
+  color: #FFFFFF;
+  padding: 58rpx 0 0 82rpx;
+}
+.header-text{
+  font-size: 22rpx;
+  color: #FFFFFF;
+  display: block;
+  margin-left: 82rpx;
+  margin-top: 5rpx;
+}
+.header-text2{
+  font-size: 22rpx;
+  color: #FFFFFF;
+  margin-left: 82rpx;
+  margin-top: 38rpx;
+  display: block;
+}
+/*月卡状态*/
+.header-zt{
+  height: 232rpx;
+}
+.header-img-zt{
+  background-image:url("http://admin.gzyunku.com/yueka2.png");
+  height: 232rpx;
+  display: block;
+  background-size: 100% 100%;
+}
+.header-bt-zt{
+  display: block;
+  font-size: 36rpx;
+  color: #FFFFFF;
+  padding: 58rpx 0 0 82rpx;
+  width: 500rpx;
+}
+.header-text-zt{
+  font-size: 22rpx;
+  color: #FFFFFF;
+  display: block;
+  margin-left: 82rpx;
+  margin-top: 5rpx;
+  width: 500rpx;
+}
+.header-text2-zt{
+  display: block;
+  float: right;
+  margin-right: 69rpx;
+  margin-top: -50rpx;
+  width: 102rpx;
+  height: 48rpx;
+  background: rgba(255,255,255,0.20);
+  border: 2rpx solid #FFFFFF;
+  border-radius: 100rpx;
+  font-size: 22rpx;
+  color: #FFFFFF;
+  line-height: 48rpx;
+  text-align: center;
+}
+
+
+.leix{
+  height: 72rpx;
+  display: block;
+  border-bottom: 1rpx solid  #F4F4F4;
+  font-size: 24rpx;
+  color: #999999;
+  line-height: 72rpx;
+  padding-left: 30rpx;
+}
+
+.conten-img-yi{
+  background-image:url("http://admin.gzyunku.com/yueka-yi.png");
+  background-size: 100% 100%;
+  width: 216.5rpx;
+  height: 100rpx;
+  text-align: center;
+  display: block;
+  margin-top: 51rpx;
+  margin-left: 31rpx;
+  float: left;
+}
+.content-money-yi{
+  font-size: 28rpx;
+  color: #0DC678;
+  display:inline-block;
+  margin:4px 58rpx 0 30px
+}
+.content-present-yi{
+  font-size: 18rpx;
+  color: #0DC678;
+  display: block;
+  margin-top: 10rpx;
+}
+.buttom{
+  position: absolute;
+  bottom: 66rpx;
+  left: 95rpx;
+  width: 560rpx;
+  height: 94rpx;
+  text-align: center;
+  line-height: 94rpx;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  background: #15CD80;
+  border-radius: 100px;
+}

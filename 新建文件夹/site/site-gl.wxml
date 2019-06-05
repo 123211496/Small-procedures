@@ -1,0 +1,38 @@
+<view class='container'>
+<checkgroup type="radio" bindchange="changeFn">
+  <block wx:for="{{items}}" wx:key="item" hidden="{{reply}}">
+    <view class='content-yi'>
+      <view class='conten-yi-bt'>
+        <text class='conten-yi-mz'>{{item.areaName}}</text>
+        <text class='conten-yi-dz'>{{item.address}}</text>
+      </view>
+      <view class='conten-yi-xx' data-id="{{item.id}}">
+        <view class='conten-xx-zuo' data-id="{{item.id}}">
+          <!-- <checkbox-group class='conten-yi-mr' data-title="{{item.isdef}}" >
+            <label>
+               <checkbox value="{{item.isdef}}" checked='{{item.isdef==Y?"true":"false"}}'/>
+            </label>
+          </checkbox-group> -->
+      
+      
+        <checklist value="{{item.id}}" type="s" index="{{index}}" checked="{{item.isdef=='Y'?'true':'false'}}" data-id="{{item.id}}">
+          <view>默认地址</view>
+      </checklist>
+        </view>
+        <view class='content-xx-you' bindtap="delList" data-id="{{item.id}}">
+          <image src='../../img/Lists_delete.png' class='conten-xx-img' />
+          <text class='content-xx-sc'>删除</text>
+        </view>
+      </view>
+    </view>
+  </block>
+  </checkgroup>
+  <view wx:eles class="content-tj" hidden="{{reple}}">
+      <image src='../../img/default_address.png' class='content-tj-img' />
+      <view class='content-tj-xia' bindtap='binviewchang'>
+        <image src='../../img/address_jia.png' class='content-xia-img' />
+        <text class='content-xia-text'>快速添加常用地址</text>
+      </view>
+    </view>
+  <button type='button' bindtap='button' class='button'>添加新地址</button>
+</view>

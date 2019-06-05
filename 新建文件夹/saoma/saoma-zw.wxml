@@ -1,0 +1,49 @@
+<view class='container'>
+     <image src='../../img/Charging_bg_Placeholder.png' class='cm-cdz-img'/>
+     <view class='cm-bt'>
+        <text class='cm-cd-sj'>0小时00分00秒</text>
+        <text class='cm-cd-bt'>占位时长</text>
+     </view>
+     <view class='cm-nr'>
+        <view class='cm-nr-yi'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_cost.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>占位费用</text>
+           </view>
+           <text class='nr-yi-jq'>{{occupyingfee}}元</text>
+        </view>
+        <view class='cm-nr-er'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_Balance.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>账户余额</text>
+           </view>
+           <text class='nr-jq'>可用余额{{balance}}元</text>
+        </view>
+        <view class='cm-nr-si'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_cost.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>充电费用</text>
+           </view>
+           <text class='nr-jq'>{{chargingCost}}元</text>
+        </view>
+        <view class='cm-nr-wu'>
+           <view class='nr-yi-zuo'>
+               <image src='../../img/Charging_icon_time.png' class='nr-yi-img'/>
+               <text class='nr-yi-text'>充电时长</text>
+           </view>
+           <text class='nr-jq'>{{chargeTime}}</text>
+        </view>
+       
+     </view>
+     <text class='jieshu' bindtap='binviejies' data-name="{{deviceid}}" data-id="{{portid}}" data-time="{{time}}" data-device="{{deviceNumber}}" data-order="{{orderid}}">扫码结束</text>
+     <view class='ti-bz'>
+         <view class='ti-bz-yi'>
+             <text class='ti-bz-yuan'></text>
+             <text class='ti-bz-text'>X元/小时，每天封顶x元。免费停放x小时、次</text>
+         </view>
+         <view class='ti-bz-er'>
+             <text class='ti-bz-yuan'></text>
+             <text class='ti-bz-text'>扫码后请及时将您的爱车移开车位车。以便设备能尽快确定您的爱车已离开。</text>
+         </view>
+     </view>
+</view>

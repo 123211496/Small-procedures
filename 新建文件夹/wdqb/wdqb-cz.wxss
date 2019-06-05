@@ -1,0 +1,89 @@
+/* pages/wdqb/wdqb-cz.wxss */
+.header{
+  height: 232rpx;
+}
+.header-img{
+  background-image:url("http://admin.gzyunku.com/Group.png");
+  height: 232rpx;
+  display: block;
+  background-size: 100% 100%;
+}
+.header-text{
+  display: block;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  padding: 60rpx 0 0 82rpx;
+}
+.header-money{
+  font-size: 88rpx;
+  color: #FFFFFF;
+  display: block;
+  margin-left: 75rpx;
+}
+.content{
+  height: 520rpx;
+}
+.text{
+  height: 70rpx;
+  display: block;
+  border-bottom: 1rpx solid #F4F4F4;
+  font-size: 24rpx;
+  color: #999999;
+  line-height: 70rpx;
+  padding-left: 30rpx;
+}
+.conten-img1{
+  background-image:url("http://admin.gzyunku.com/chongz_nro.png");
+  height: 120rpx;
+  width: 216.5rpx;
+  display: block;
+  background-size: 100% 100%;
+  float: left;
+  margin-left: 30rpx;
+  margin-top: 30rpx;
+  text-align: center;
+}
+.content-money{
+  display: block;
+  font-size: 36rpx;
+  color:  #191D21;
+  margin-top: 35rpx;
+}
+.content-present{
+  font-size: 18rpx;
+  color: #FE8151;
+  display: block;
+}
+.tongy{
+  margin: 224rpx 149rpx  43rpx 150rpx;
+  height: 33rpx;
+  width: 450rpx;
+}
+.tongy-img{
+  display: block;
+  width:32rpx;
+  height: 32rpx; 
+  float: left;
+}
+.tongy-text{
+  font-size: 24rpx;
+  color: #666666;
+  display: block;
+  float: left;
+  margin-left: 11rpx;
+}
+.buttom{
+  display: block;
+  height: 94rpx;
+  width: 560rpx;
+  border-radius: 100rpx;
+  border: none;
+  background: #15CD80;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  line-height: 94rpx;
+  margin-bottom: 30rpx
+}
+.chongzhi{
+  color:#15cd80 
+}

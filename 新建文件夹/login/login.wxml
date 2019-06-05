@@ -1,0 +1,22 @@
+<view class='container'>
+    <view class='content'>
+      <view class='content-up'>
+         <image class='content-up-img' src='../../img/App_shibai.png'/>
+         <view class='content-up-bt'>授权失败</view>
+         <text class='content-up-text'>拒绝授权“云酷充电桩”小程序将无法使用地图找充电桩等服务</text>
+      </view>
+      <view class='content-down'>
+          <view class='content-down-bt'>允许“云酷充电桩”使用我的</view>
+          <view class='content-down-swiper'>
+              <view class='swiper-up'>
+                 <text class='swiper-up-text'>地理位置</text><switch checked bindchange="switchChange" class='up-swiper'></switch>
+              </view>
+               <view class='swiper-down'>
+                 <text class='swiper-down-text'>用户信息</text><switch checked bindchange="switchchange" class='down-swiper'></switch>
+              </view>
+          </view>
+          <view class='text'>点击下方“<text style='color:#15CD80'>重新授权</text>”按钮，按图示打开授权</view>
+      </view>
+      <button class='button' wx:if="{{canIUse}}" open-type='getUserInfo' bindgetuserinfo='getUserInfo'>重新授权</button>
+    </view>
+</view>

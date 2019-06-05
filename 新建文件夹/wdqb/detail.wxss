@@ -1,0 +1,89 @@
+/* pages/wdqb/detail.wxss */
+.content-yi{
+  height: 123rpx;
+  border-bottom: 1rpx solid #F4F4F4;
+}
+.content-yi-left{
+  float: left;
+  width: 530rpx;
+  height: 123rpx;
+}
+.yi-left-ye{
+  display: block;
+  font-size: 28rpx;
+  color: #191D21;
+  padding: 23rpx 0 0 30rpx;
+}
+.yi-left-sj{
+  display: block;
+  font-size: 22rpx;
+  color: #999999;
+  margin: 8rpx 0 22rpx 30rpx;
+}
+.money{
+  display: block;
+  float: left;
+  text-align: center;
+  height: 123rpx;
+  width: 220rpx;
+}
+.money-right{
+  font-size: 32rpx;
+  color: #25D189;
+  line-height: 123rpx;
+}
+
+.content-er{
+  height: 123rpx;
+  border-bottom: 1rpx solid #F4F4F4;
+}
+.content-er-left{
+  float: left;
+  width: 530rpx;
+  height: 123rpx;
+}
+.er-left-ye{
+  display: block;
+  font-size: 28rpx;
+  color: #191D21;
+  padding: 23rpx 0 0 30rpx;
+}
+.er-left-sj{
+  display: block;
+  font-size: 22rpx;
+  color: #999999;
+  margin: 8rpx 0 22rpx 30rpx;
+}
+.money-er{
+  display: block;
+  float: left;
+  text-align: center;
+  height: 123rpx;
+  width: 220rpx;
+}
+.money-right-er{
+  font-size: 32rpx;
+  color: #FF6262;
+  line-height: 123rpx;
+}
+
+
+/*没有数据*/
+.content-meiy{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.meiy{
+  width: 291rpx;
+  height: 224rpx;
+  display:block;
+  margin:auto;
+  margin-top: 236rpx;
+}
+.meiy-text{
+  display: block;
+  font-size: 32rpx;
+  color: #AEB0B6;
+  margin-top: 41rpx;
+}

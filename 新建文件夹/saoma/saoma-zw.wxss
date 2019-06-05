@@ -1,0 +1,126 @@
+page{
+  display: block;
+  background-color: #FFFFFF;
+}
+.cm-cdz-img{
+  height: 132rpx;
+  width: 618rpx;
+  margin: 92rpx 0 0 66rpx;
+}
+.cm-cd-sj{
+  font-size: 42rpx;
+  color: #ED8B00;
+  display: block;
+  text-align: center;
+  margin-top: 49rpx;
+}
+.cm-cd-bt{
+  font-size: 28rpx;
+  color: #ED8B00;
+  display: block;
+  text-align: center;
+  margin-top: 8rpx;
+}
+.cm-nr{
+  margin-top: 30rpx;
+}
+.cm-nr-yi{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.nr-yi-zuo{
+  float: left;
+}
+.nr-yi-img{
+  width: 42rpx;
+  height: 42rpx;
+  display:block;
+  float: left;
+  margin: 24rpx 0 0 38rpx;
+}
+.nr-yi-text{
+  font-size: 28rpx;
+  color: #333333;
+  float: left;
+  display: block;
+  line-height: 87rpx;
+  margin-left: 19rpx;
+}
+.nr-yi-jq{
+  float: right;
+  display: block;
+  font-size: 28rpx;
+  color: #FD814F;
+  line-height: 87rpx;
+  margin-right: 36rpx;
+}
+.cm-nr-er{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.nr-jq{
+  float: right;
+  display: block;
+  font-size: 28rpx;
+  color: #969FA9;
+  line-height: 87rpx;
+  margin-right: 36rpx;
+}
+.cm-nr-si{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.cm-nr-wu{
+  height: 87rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+
+.jieshu{
+  margin-top: 40rpx;
+  display: block;
+  margin-left: 95rpx;
+  width: 560rpx;
+  height: 94rpx;
+  background-color: #15CD80;
+  border-radius: 100rpx;
+  font-size: 32rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 94rpx;
+}
+
+.ti-bz{
+  margin-top: 63rpx;
+}
+.ti-bz-er{
+  clear: both;
+}
+.ti-bz-yuan{
+  display: block;
+  width: 8rpx;
+  height: 8rpx;
+  background-color: #C0C0C0;
+  border-radius: 100rpx;
+  float: left;
+  margin-top: 15rpx;
+  margin-left: 39rpx;
+}
+.ti-bz-text{
+  width: 600rpx;
+  font-size: 24rpx;
+  color: #999BA2;
+  display: block;
+  float: left;
+  margin-left: 11rpx;
+}
+.ti-bz-yi{
+  height: 33rpx;
+}
+.ti-bz-er{
+  margin-top: 15rpx;
+  height: 66rpx;
+}
