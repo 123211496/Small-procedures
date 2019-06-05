@@ -1,0 +1,61 @@
+<view class='container'>
+  <view class='header'>
+    <text class='header-text'>头像</text>
+    <view class='header-img' bindtap='binimage'>
+      <!-- <image class='header-img-box'src="{{avatarUrl}}"/> -->
+      <!-- <open-data class='header-img-box' type="userAvatarUrl"></open-data> -->
+      <image class='header-img-box' src='{{img}}'></image>
+      <image src='../../img/Lists_enter.png' class='header-img-list' />
+    </view>
+  </view>
+  <view class='box'>
+    <view class='box-yi'>
+      <text class="boxname">昵称</text>
+      <input class='boxName name' type='text' value='{{Name}}' bindinput='getName' placeholder='请输入用户昵称' placeholder-class='placeholder' placeholder-style='text-align:right'></input>
+    </view>
+    <view class='box-yi'>
+      <text class="boxname">账号</text>
+      <text class='boxName zhang'>{{uid}}</text>
+    </view>
+    <view class='box-yi'>
+      <text class="boxname">性别</text>
+      <picker class='boxName gea' bindchange="bindPicker" range="{{genw}}" value="{{areaIndex}}">
+          <view class="label-right">
+            <view class="label-right">
+              {{genw[areaIndex]}}
+            </view>
+          </view>
+        </picker>
+    </view>
+    <view class='box-yi'>
+      <text class="boxname">手机</text>
+      <input class='boxName opan' type='text' value='{{Phone}}' bindinput='getPhon' placeholder='请输入手机号码(必填项)' placeholder-style='text-align:right'></input>
+    </view>
+  </view>
+  <view class='list'>
+    <text class='list-bt'>隐私信息</text>
+    <view class='box-yi list-name'>
+      <text class="boxname">真实姓名</text>
+      <input class='boxName ming' type='text' value='{{realName}}' placeholder='请输入姓名' bindinput='getanme'/>
+    </view>
+    <view class='box-yi list-name'>
+      <text class="boxname">证件类型</text>
+      <view class='listName'>
+        <!-- <text class='list-text'>请选择</text> -->
+        <picker class='list-text' bindchange="bindViewEvent" range='{{gender}}' value='{{inde}}'>
+          <view class="label-right">
+            <view class="label-right">
+              {{gender[option]}}
+            </view>
+          </view>
+        </picker>
+        <image class="list-img" src='../../img/Lists_enter.png' />
+      </view>
+    </view>
+    <view class='box-yi list-name'>
+      <text class="boxname">证件号码</text>
+      <input class='boxName zheng' type='text' value='{{idNumber}}' bindinput='getbunber' placeholder='请填入证件号' placeholder-style='text-align:right'></input>
+    </view>
+  </view>
+  <button class='button' bindtap='buttom'>保存</button>
+</view>

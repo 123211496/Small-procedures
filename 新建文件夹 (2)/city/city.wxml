@@ -1,0 +1,63 @@
+<view class='container'>
+<scroll-view scroll-with-animation scroll-into-view='{{cityListId}}'>
+  <view class='header'>
+    <view class='content-zhong'>
+      <image src='../../img/nav_search.png' class='search' />
+      <!-- <text class='lanlu'></text> -->
+      <input class='input' type='text' placeholder='输入城市' value='{{keyword}}' bindinput="getCode" bindconfirm="binviewxiao" />
+    </view>
+  </view>
+   
+
+  <view class='conten' wx:for="{{itemb}}" wx:key="item" hidden='{{sitys}}'  bindtap='binviename' data-name="{{item.name}}">
+     <text class='contet-text'  >{{item.name}}</text>
+  </view>
+
+
+    <view hidden='{{sitya}}'>
+        <view class='a-z'>
+     <view wx:for="{{cityAZ}}" wx:key='item'>
+       <view data-name='{{item.cityName}}' bindtap='bindAZ'>{{item.cityName}}</view>
+     </view>
+  </view>
+  <view class='content'>
+    <view class='content-bt'>当前定位城市</view>
+    <view class='site'>
+        <view class='site-left'>
+           <image class='site-left-img' src='../../img/address_icon_position .png'/>
+           <text class='site-left-text'>{{city}}</text>
+        </view>
+        <view class='site-right' bindtap='shuaxin'>
+          <image class='site-right-img' src='../../img/Lists_Refresh.png'/>
+          <text class='site-right-text'>刷新定位</text>
+        </view>
+    </view>
+    <view class='hot'>
+       <text class='hot-bt'>热门城市</text>
+       <view class='hot-city'>
+          <view class='hot-city-bt'>
+             <text class='hot-city-box' bindtap='gaincity' data-tien="北京">北京</text>
+          </view>
+          <view class='hot-city-bt'>
+             <text class='hot-city-box' bindtap='gaincity' data-tien="上海">上海</text>
+          </view>
+          <view class='hot-city-bt'>
+             <text class='hot-city-box' bindtap='gaincity' data-tien="广州">广州</text>
+          </view>
+          <view class='hot-city-bt'>
+             <text class='hot-city-box' bindtap='gaincity' data-tien="深圳">深圳</text>
+          </view>
+       </view>
+    </view>
+     <view class='city-list'>
+        <view class='citt-select' wx:for="{{items}}" wx:key="item">
+          <view class='number'>{{item.code}}</view>
+          <view class='name'  data-tien="{{item.name}}"  bindtap='gaincity'>{{item.name}}</view>
+        </view>
+     </view>
+    <view>
+    </view>
+  </view>
+    </view>
+</scroll-view>
+</view>

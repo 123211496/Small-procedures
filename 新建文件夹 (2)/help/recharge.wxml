@@ -1,0 +1,7 @@
+<view class='container'>
+<view class='content'>
+<text class='content-bt'>如何扫码充电</text>
+<text class='content-nr'>先连接电动车插座，然后用微信/支付宝扫液晶屏或机身上的二维码(扫码充电），然后选择对应的路号，付款即可充电</text>
+<!-- <image src='' class='img'/> -->
+</view>
+</view>

@@ -1,0 +1,67 @@
+/**fault.wxss**/
+page{
+  display: block;
+  background-color: #f5f5f5;
+}
+.userinfo {
+   background-color: #f5f5f5;
+   height: 100%;
+}
+.userinfo-bt{
+  height: 80rpx;
+}
+.text{
+  display: block;
+  font-size:24rpx;
+  line-height: 80rpx;
+  padding-left:29rpx;
+  color: #7A7A7A;
+  background: #f5f5f5;
+}
+.userinfo-nr{
+  width: 100%;
+  overflow: hidden;
+  display:block;
+  height: 285rpx;
+  padding-top: 18rpx;
+  font-size: 28rpx;
+  color: #333333;
+  background-color: #FFFFFF;
+  padding-left: 32rpx;
+  position: relative
+}
+.shangchuan{
+  height: 220rpx;
+  background-color: #FFFFFF;
+}
+.shangchuan-img{
+  width: 160rpx;
+  height: 160rpx;
+  margin: 30rpx 0 30rpx -126rpx;
+}
+.button{
+  width: 560rpx;
+  height: 94rpx;
+  margin-top: 80rpx;
+  background: #15CD80;
+  border-radius: 100rpx;
+  color: #FFFFFF;
+}
+.shangchuan-img-xs{
+  width: 160rpx;
+  height: 160rpx;
+  border: 1rpx dashed #f5f5f5;
+  float: left;
+  position:relative;
+  left:37rpx;
+  top:29rpx;
+
+}
+.currentWordNumber{
+  font-size: 28rpx;
+  color: gray;
+  position: absolute;
+  left:634rpx;
+  top:238rpx;
+
+}

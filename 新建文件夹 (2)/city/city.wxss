@@ -1,0 +1,204 @@
+/* pages/city/city.wxss */
+
+page {
+  background: #f5f5f5;
+}
+
+.header {
+  height: 110rpx;
+  background: #fff;
+}
+
+.content-zhong {
+  width: 670rpx;
+  height: 68rpx;
+  background-color: #f5f5f5;
+  float: left;
+  border-radius: 100rpx;
+  margin-top: 24rpx;
+  margin-left: 40rpx;
+}
+
+.search {
+  float: left;
+  margin-top: 19rpx;
+  width: 30rpx;
+  height: 30rpx;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+
+.lanlu {
+  display: block;
+  width: 4rpx;
+  height: 37rpx;
+  background-color: #508cee;
+  float: left;
+  margin-top: 16rpx;
+  margin-left: 22rpx;
+}
+
+.input {
+  float: left;
+  font-size: 24rpx;
+  color: #333333;
+  padding-left: 6rpx;
+  width: 80%;
+  height: 68rpx;
+  line-height: 68rpx;
+}
+
+.content {
+  margin-top: 20rpx;
+  background: #fff;
+}
+
+.content-bt {
+  height: 71rpx;
+  width: 720rpx;
+  margin: auto;
+  font-size: 24rpx;
+  color: #999;
+  line-height: 71rpx;
+}
+
+.site {
+  height: 100rpx;
+}
+
+.site-left {
+  width: 280rpx;
+  height: 100rpx;
+  float: left;
+  line-height: 100rpx;
+}
+
+.site-left-img {
+  width: 28rpx;
+  height: 35rpx;
+  display: block;
+  float: left;
+  line-height: 100rpx;
+  margin-top: 35rpx;
+  margin-left: 35rpx;
+}
+
+.site-left-text {
+  font-size: 32rpx;
+  color: #26d28a;
+  display: block;
+  float: left;
+  line-height: 100rpx;
+  margin-left: 11rpx;
+}
+
+.site-right {
+  width: 220rpx;
+  height: 100rpx;
+  float: right;
+  line-height: 100rpx;
+}
+
+.site-right-img {
+  width: 27rpx;
+  height: 30rpx;
+  display: block;
+  float: left;
+  margin-top: 35rpx;
+  margin-left: 37rpx;
+}
+
+.site-right-text {
+  font-size: 28rpx;
+  color: #969fa9;
+  display: block;
+  float: left;
+  margin-left: 8rpx;
+}
+
+.hot {
+  margin: 5rpx;
+}
+
+.hot-bt {
+  font-size: 32rpx;
+  color: #555;
+  height: 50rpx;
+  line-height: 50rpx;
+  display: block;
+  padding-left: 36rpx;
+}
+
+.hot-city {
+  height: 110rpx;
+}
+
+.hot-city-bt {
+  width: 147rpx;
+  height: 70rpx;
+  border: 2rpx solid #ddd;
+  margin-top: 15rpx;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  border-radius: 8rpx;
+  margin-left: 30rpx;
+}
+
+.hot-city-box {
+  font-size: 28rpx;
+  color: #555;
+  line-height: 70rpx;
+}
+
+
+
+/*悬空字母*/
+
+.a-z {
+  width: 35rpx;
+  position: fixed;
+  top: 112rpx;
+  text-align: center;
+  right: 5rpx;
+  font-size: 26rpx;
+  color: #28d58d;
+}
+
+/*城市*/
+
+.citt-select {
+  height: 156rpx;
+}
+
+.number {
+  height: 56rpx;
+  font-size: 28rpx;
+  color: #555;
+  line-height: 56rpx;
+  margin-left: 30rpx;
+}
+
+.name {
+  height: 100rpx;
+  font-size: 28rpx;
+  color: #555;
+  line-height: 100rpx;
+  margin-left: 30rpx;
+}
+
+/*选择城市*/
+.conten{
+  height:75rpx;
+background:#FFFFFF;
+margin-top:1rpx;
+
+}
+.contet-text{
+  height:75;
+font-size:24rpx;
+color:#333333;
+display:inline-block;
+margin-left:40rpx;
+line-height:75rpx;
+}

@@ -1,0 +1,50 @@
+/* pages/city/city-list.wxss */
+page {
+  background: #f5f5f5;
+}
+
+.header {
+  height: 110rpx;
+  background: #fff;
+}
+
+.content-zhong {
+  width: 670rpx;
+  height: 68rpx;
+  background-color: #f5f5f5;
+  float: left;
+  border-radius: 100rpx;
+  margin-top: 24rpx;
+  margin-left: 40rpx;
+}
+
+.search {
+  float: left;
+  margin-top: 19rpx;
+  width: 30rpx;
+  height: 30rpx;
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}
+.input {
+  float: left;
+  font-size: 24rpx;
+  color: #333333;
+  padding-left: 6rpx;
+  width: 80%;
+  height: 68rpx;
+  line-height: 68rpx;
+}
+.content{
+  height: 60rpx;
+  background: #FFFFFF;
+  line-height:60rpx;
+  color: #333333;
+  font-size: 28rpx;
+  margin-top: 1rpx
+}
+.content-text{
+  display: inline-block;
+  margin-left: 30rpx;
+  margin-top: 1rpx;
+}

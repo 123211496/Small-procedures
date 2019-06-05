@@ -1,0 +1,9 @@
+<view class='container'>
+  <view class="content">
+    <view bindtap='czcj' class='content-yi text'>如何扫码充电 <image src='../../img/Lists_enter.png' class='img'/></view>
+    <view bindtap='tjtp' class='content-er text'>如何刷卡充电<image src='../../img/Lists_enter.png' class='img'/></view>
+    <view bindtap='cdsb' class='content-er text'>充电时怎么扣费 <image src='../../img/Lists_enter.png' class='img'/></view>
+    <view bindtap='stop' class='content-er text'>中途停止充是怎么收费 <image src='../../img/Lists_enter.png' class='img'/></view>
+    <view bindtap='inquire' class='content-er text'>如何查询充电状态 <image src='../../img/Lists_enter.png' class='img'/></view>
+  </view>
+</view>

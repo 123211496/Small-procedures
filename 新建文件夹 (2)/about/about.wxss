@@ -1,0 +1,7 @@
+/* pages/about/about.wxss */
+.nr{
+  padding: 82rpx 46rpx 0 32rpx;
+  text-indent: 70rpx;
+  font-size: 32rpx;
+  color: #555555
+}

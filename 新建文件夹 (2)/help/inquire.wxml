@@ -1,0 +1,7 @@
+<view class='container'>
+<view class='content'>
+<text class='content-bt'>如何查询充电状态</text>
+<text class='content-nr'>您可以进入酷来电（小程序/服务号）--个人中心</text>
+<!-- <image src='' class='img'/> -->
+</view>
+</view>

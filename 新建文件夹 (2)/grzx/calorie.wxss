@@ -1,0 +1,102 @@
+/* pages/grzx/calorie.wxss */
+page{
+  background: #F5F5F5;
+}
+.absence{
+  width: 291rpx;
+  height: 241rpx;
+  display: inline-block;
+  margin-left: 226rpx;
+  margin-top: 236rpx;
+}
+.absence-text{
+  display: block;
+  text-align: center;
+  font-size: 32rpx;
+  color: #AEB0B6;
+}
+.button{
+  border-radius: 0;
+  height: 94rpx;
+  background: #15CD80;
+  display: block;
+  line-height: 94rpx;
+  color: #FFFFFF;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0
+}
+/*有卡*/
+.have{
+  height: 452rpx;
+  background: #FFFFFF;
+  display: block;
+  margin-top: 20rpx;
+}
+.have-bt{
+  width: 720rpx;
+  height: 71rpx;
+  display: block;
+  margin: auto;
+  font-size: 24rpx;
+  color: #999999;
+  line-height: 71rpx;
+  border-bottom:  #F4F4F4;
+}
+.have-img{
+  width: 685rpx;
+  height: 320rpx;
+  display: block;
+  background-size: 100% 100%;
+  margin: auto;
+  margin-top: 20rpx;
+}
+.have-left{
+  display: block;
+  height: 320rpx;
+  width: 515rpx;
+  float: left;
+}
+.have-left-bt{
+  display: block;
+  font-size: 36rpx;
+color: #FFFFFF;
+margin-top: 39rpx;
+margin-left: 45rpx;
+}
+.have-left-time{
+  display: block;
+  font-size: 22rpx;
+color: #FFFFFF;
+opacity: 0.65;
+margin-top: 5rpx;
+margin-left: 45rpx;
+}
+.have-left-id{
+  display: block;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  margin-top: 127rpx;
+  margin-left: 45rpx;
+}
+.have-right{
+  width: 169rpx;
+  height: 320rpx;
+  display: block;
+  float: left;
+}
+.have-right-bt{
+  background: rgba(255,255,255,0.20);
+  border: 2rpx solid #FFFFFF;
+  border-radius: 100px;
+  display: block;
+  width: 102rpx;
+  height: 48rpx;
+  font-size: 22rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 48rpx;
+  margin-top: 48rpx;
+  margin-left: 39rpx;
+}

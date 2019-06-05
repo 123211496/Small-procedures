@@ -1,0 +1,4 @@
+<view class='container'>
+   <textarea placeholder='请输入点卡号码' class='text' bindinput='input'></textarea>
+   <button class='button' style='background:{{texat}}' value="{{text}}" bindtap='bangding'>完成绑定</button>
+</view>

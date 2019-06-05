@@ -1,0 +1,18 @@
+<!--fault.wxml-->
+<view class="container">
+  <form class="userinfo"  bindsubmit="formSubmit">
+    <view class='userinfo-bt'>
+    <text class='text'>简单描述你的反馈</text>
+    <textarea  class='userinfo-nr' value="{{content}}" name="opinion" bindinput="inputs">
+        <text class="currentWordNumber">{{currentWordNumber|0}}/{{max}}</text>
+    </textarea>
+    <text class='text'>上传图片能更好的帮助我们定位问题</text>
+    <view class='shangchuan' bindtap='binviewchuan'>
+        <image src='../../img/malfunction_photo.png' class='shangchuan-img'></image>
+        <image src="{{tempFile}}" class='shangchuan-img-xs'></image>
+    </view>
+    <button class='button' formType="submit" loading="{{loading}}">立即上报</button>
+    </view>
+  </form>
+</view>
+<!-- bindblur="bindTextAreaBlur" -->

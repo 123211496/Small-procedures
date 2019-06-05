@@ -1,0 +1,33 @@
+<view class='container'>
+<image src='../../img/Ural.png' class='img'></image>
+    <view class='content'>
+        <view class='content-one'>
+            <text class='conten-bt'>{{deviceName}}</text>
+              <view class='conten-zt'>
+                <text class='content-yuan-yi'></text>
+                <text class='conten-text-yi'>空闲{{state_yes}}</text>
+              </view>
+              <view class='conten-zt'>
+                <text class='content-yuan-er'></text>
+                <text class='conten-text-er'>充电中{{state_no}}</text>
+              </view>
+              <view class='conten-zt'>
+                <text class='content-yuan-er'></text>
+                <text class='conten-text-er'>故障{{state_fau}}</text>
+              </view>
+        </view>
+        <view class="content-dz">
+           <text class="content-dz-text">{{communityName}}</text>
+           <view class="content-dh">
+              <!-- <button class="page-body-button"  bindtap='submit' class='content-dh-text' data-log="{{longitude}}" data-lat="{{latitude}}"><image class='conten-dh-img' src='../../img/Shape.png'/>{{distance}}km</button> -->
+               <view bindtap='binvietymap' class='content-dh-text' data-log="{{lng}}" data-lat="{{lat}}"><image class='conten-dh-img' src='../../img/Shape.png'/>{{distance}}km</view>
+              <!-- <text ></text> -->
+           </view>
+        </view>
+    </view>
+    <text class='chongdian' bindtap='binviewdian' data-id='{{deviceid}}' data-name="{{deviceNumber}}">我要充电</text>
+    <text class='yuyue' bindtap='woyaoyuyue'>我要预约</text>
+
+    <!--       广告位      -->
+    <view class='guanggao'></view>
+</view>

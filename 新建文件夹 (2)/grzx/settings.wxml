@@ -1,0 +1,6 @@
+<view class='container'>
+   <view class='mian'>
+      <text class='mian-text'>消息通知</text>
+      <switch checked bindchange="switch1Change" class='mian-img'/> 
+   </view>
+</view>

@@ -1,0 +1,86 @@
+/* pages/found/found.wxss */
+page{
+  background: #F5F5F5;
+}
+.content{
+  margin-top: 20rpx;
+  display: block;
+}
+.content-li-yi{
+  height: 130rpx;
+  background: #FFFFFF;
+}
+.li-yi-img{
+  display: block;
+  width: 88rpx;
+  height: 88rpx;
+  float: left;
+  margin: 21rpx 0 0 43rpx; 
+}
+.content-li-right{
+  float: left;
+  margin-left: 22rpx;
+  width: 597rpx;
+  height: 130rpx;
+}
+.yi-shang-xi{
+  font-size: 28rpx;
+  color: #011111;
+  float: left;
+  margin-top: 25rpx;
+}
+.yi-shang-sj{
+  font-size: 22rpx;
+  color: #B2B2B2;
+  float: right;
+  margin-top: 30rpx;
+  margin-right: 26rpx;
+}
+.content-nr-text{
+  display: block;
+  clear: both;
+  font-size: 24rpx;
+  color: #A5A5A5;
+  width: 552rpx;
+  overflow: hidden;
+  padding: 13rpx 0 23rpx 0;
+  height: 33rpx;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.content-tj {
+  /* background-color: #fff; */
+  /* height: 1054rpx; */
+}
+
+.content-tj-img {
+  width: 280rpx;
+  height: 250rpx;
+  display: inline-block;
+  margin-left: 237rpx;
+  margin-top: 69rpx;
+}
+
+/* .content-tj-xia {
+  display: block;
+  background-color: #fff;
+  height: 40rpx;
+  margin-top: 48rpx;
+} */
+
+.content-xia-img {
+  width: 30rpx;
+  height: 30rpx;
+  display: block;
+  margin-top: 48rpx;
+}
+
+.content-xia-text {
+  font-size: 28rpx;
+  color: #15cd80;
+  margin-left: 11rpx;
+  display: block;
+  margin-top: 43rpx;
+  text-align: center
+}

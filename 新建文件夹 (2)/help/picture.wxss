@@ -1,0 +1,30 @@
+page{
+  display: block;
+  background-color: #FFFFFF;
+}
+.content{
+  margin-top: 20rpx;
+}
+.content-bt{
+  height:122rpx;
+  display:block;
+  font-size: 42rpx;
+  color: #333333;
+  background-color:#FFFFFF;
+  line-height: 122rpx;
+  border-bottom: 1rpx solid #ececec; 
+  padding-left: 32rpx;
+}
+.content-nr{
+  display:block;
+  background-color: #FFFFFF;
+  padding: 40rpx 44rpx 0 34rpx;
+   font-size:32rpx;
+  color: #999999;
+}
+.img{
+  width: 100%;
+  display:block;
+  height: 288rpx;
+  background-color:#D8D8D8; 
+}

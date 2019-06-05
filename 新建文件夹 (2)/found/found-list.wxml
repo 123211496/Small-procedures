@@ -1,0 +1,15 @@
+<view class='container'>
+   <view class='content'>
+      <view class='header'>
+         <text class='header-bt'>公告类型消息（示例）</text>
+         <text class='header-text'>2018-06-18</text>
+      </view>
+      <view class='wenben'>
+         客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供          户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客          提供客户提供客户提供客户提供客户提供
+      </view>
+      <image  class='zwt'/>
+      <view class='wenben'>
+         客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供          户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客户提供客 
+      </view>
+   </view>
+</view>

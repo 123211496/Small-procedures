@@ -1,0 +1,7 @@
+<view class='container'>
+<view class='content'>
+<text class='content-bt'>中途停止充是怎么收费</text>
+<text class='content-nr'>按实际充电的时间进行扣费。</text>
+<!-- <image src='' class='img'/> -->
+</view>
+</view>

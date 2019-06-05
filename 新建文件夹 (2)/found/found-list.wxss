@@ -1,0 +1,31 @@
+/* pages/found/found-list.wxss */
+page{
+  background: #F5F5F5;
+}
+.header{
+  height: 150rpx;
+  background: #FFFFFF;
+  border-bottom: 1rpx solid #F4F4F4;
+}
+.header-bt{
+  font-size: 42Rpx;
+  color: #333333;
+  display: block;
+  padding:28rpx 0 0 30rpx;
+}
+.header-text{
+  font-size: 24rpx;
+  color: #999999;
+  display: block;
+  margin:8rpx 0 0 32rpx;
+}
+.wenben{
+  background: #FFFFFF;
+  padding: 31rpx 46rpx 25rpx 32rpx;
+}
+.zwt{
+  width: 750rpx;
+  height: 288rpx;
+  display: block;
+  border-bottom: 1rpx solid #FFFFFF; 
+}

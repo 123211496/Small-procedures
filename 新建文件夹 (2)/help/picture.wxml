@@ -1,0 +1,7 @@
+<view class='container'>
+<view class='content'>
+<text class='content-bt'>如何刷卡充电</text>
+<text class='content-nr'>先连接好电动车插座，然后刷卡，并选择对应的路号，扣款并开始充电</text>
+<!-- <image src='' class='img'/> -->
+</view>
+</view>

@@ -1,0 +1,12 @@
+<view class='container'>
+<view class='content'>
+<!-- <text class='content-bt'>充电时怎么扣费</text> -->
+<text class='content-nr'>
+<text class='black'>1.如何使用小程序</text>
+扫码机身上的小程序码即可关注我们。您可以通过小程序进行扫码充电，及查询充电状态等</text>
+<text class='content-nr'>
+<text class='black'>2.如何充电</text>
+首先，请连接好电动车插座，再扫码/刷卡支付，然后选择路号并付款，即可以启动充电。</text>
+<!-- <image src='' class='img'/> -->
+</view>
+</view>

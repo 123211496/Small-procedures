@@ -1,0 +1,7 @@
+<view class='container'>
+<view class='content'>
+<text class='content-bt'>充电时怎么扣费</text>
+<text class='content-nr'>充电按实际用电时间,充满后再进行扣费（请查看本机的收银策略）</text>
+<!-- <image src='' class='img'/> -->
+</view>
+</view>

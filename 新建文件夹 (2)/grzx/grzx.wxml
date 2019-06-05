@@ -1,0 +1,76 @@
+<view class='container'>
+    <view class='conten-harder'>
+       <view class='header-zuo'>
+          <text  class='header-text'> {{userNick}} </text>
+          <text class='header-zuo-text'> 账号:{{uid}} </text>
+       </view>
+       <view class='header-you'bindtap="binviewhraer">
+           <image src='{{userPortrait}}' class='header-img'></image>
+           <image src='../../img/Lists_enter.png' class='herder-you-img'/>
+       </view>
+    </view>
+    <view class='qianbao'>
+      <view class='qianbao-yi' bindtap='binviewbao'>
+           <view class='qianbao-yi-zuo'>
+               <image src='../../img/Personal_wallet.png' class='qianbao-yi-img'/>
+               <text class='qianbao-yi-text'>我的钱包</text>
+           </view>
+           <view class='qianbao-yi-jq'>
+              <text class='qianchong-you-text'>可用余额￥{{money}}</text>
+              <image class='qianbao-you-img' src='../../img/Lists_enter.png'/>
+           </view >
+      </view>
+      <view class='qianbao-yi' bindtap='wddk'>
+           <view class='qianbao-yi-zuo'>
+               <image src='../../img/Personal_card.png' class='qianbao-yi-img'/>
+               <text class='qianbao-yi-text'>我的电卡</text>
+           </view>
+           <view class='qianbao-yi-jq'>
+              <text class='qianchong-you-text'>绑定</text>
+              <image class='qianbao-you-img' src='../../img/Lists_enter.png'/>
+           </view >
+      </view>
+      <view class='qianbao-yi' bindtap='binviewjl'>
+           <view class='qianbao-yi-zuo'>
+               <image src='../../img/Personal_recording.png' class='qianbao-yi-img'/>
+               <text class='qianbao-yi-text'>充电记录</text>
+           </view>
+           <view class='qianbao-yi-jq'>
+              <image class='qianbao-you-img' src='../../img/Lists_enter.png'/>
+           </view >
+      </view>
+    </view>
+    <view class='shezhi'>
+         <view class='shezhi-yi' bindtap='binviewfa'>
+           <view class='shezhi-yi-zuo'>
+               <image src='../../img/Personal_Find.png' class='shezhi-yi-img'/>
+               <text class='shezhi-yi-text'>发现</text>
+           </view>
+           <view class='shezhi-yi-jq'>
+              <image class='shezhi-you-img' src='../../img/Lists_enter.png'/>
+           </view >
+         </view>
+         <view class='shezhi-yi' bindtap='binviewshe'>
+           <view class='shezhi-yi-zuo'>
+               <image src='../../img/Personal_Settings.png' class='shezhi-yi-img'/>
+               <text class='shezhi-yi-text'>设置</text>
+           </view>
+           <view class='shezhi-yi-jq'>
+              <image class='shezhi-you-img' src='../../img/Lists_enter.png'/>
+           </view >
+         </view>
+    </view>
+    <view class='guanyu' bindtap='binviewguan'>
+         <view class='shezhi-yi'>
+           <view class='shezhi-yi-zuo'>
+               <image src='../../img/guanyu.png' class='shezhi-yi-img'/>
+               <text class='shezhi-yi-text'>关于我们</text>
+           </view>
+           <view class='shezhi-yi-jq'>
+              <image class='shezhi-you-img' src='../../img/Lists_enter.png'/>
+           </view >
+         </view>
+    </view>
+    <!--  广告    -->
+    <view class='guangkao'></view>
+</view>

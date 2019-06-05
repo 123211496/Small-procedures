@@ -1,0 +1,16 @@
+<view class='container'>
+   <view class='content'>
+      <view class='content-li-yi' wx:for="{{items}}"  wx:key="iten" hidden="{{replt}}" bindtap='dianji' data-id="{{item.id}}">
+         <image class='li-yi-img' src='../../img/Find_icon_announcement.png'/>
+         <view class='content-li-right'>
+           <text class='yi-shang-xi'>{{item.title}}</text>
+           <text class='yi-shang-sj'>{{time}}</text>
+           <text class='content-nr-text'>{{item.content}}</text>
+         </view>
+      </view>
+      <view  class="content-tj" hidden="{{reple}}">
+      <image src='../../img/default_consumption .png' class='content-tj-img' />
+        <text class='content-xia-text'>没有发现</text>
+    </view>
+   </view>
+</view>

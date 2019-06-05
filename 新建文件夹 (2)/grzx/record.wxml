@@ -1,0 +1,85 @@
+<view class='container'>
+  <view class='content'>
+    <view class='content-bt'>
+      <view class='content-bt-left' bindtap='bindate'>
+        <text class='content-date'>日期</text>
+        <image class='conten-left-img' src="{{relty==true?'../../img/nav_under.png':'../../img/nav_on.png'}}" />
+      </view>
+      <view class='genxin'></view>
+      <view class='content-bt-right' bindtap='bintime'>
+        <text class='content-time'>时间</text>
+        <image class='content-right-img' src="{{relts==true?'../../img/nav_under.png':'../../img/nav_on.png'}}" />
+      </view>
+    </view>
+    <view class="date" hidden='{{relty}}'>
+      <view class='left'>
+        <view class='zuo'>
+          <picker mode="date" value="{{date}}" start="2018-01-01" end="" bindchange="bindDateChange" class='time-yi'>
+            <view class='date-yi'>{{date}}</view>
+          </picker>
+        </view>
+        <text class='zhi'>至</text>
+        <view class='you'>
+          <picker mode="date" value="{{dateBox}}"  end="2050-12-31" bindchange="bindDateChanges" class='time-er'>
+            <view class='you-sj-er'>{{dateBox}}</view>
+          </picker>
+        </view>
+      </view>
+      <view class='anniu'>
+        <button class='chongz' bindtap='datecz'>重置</button>
+        <button class='qued' bindtap='binquedi'>确定</button>
+      </view>
+    </view>
+
+    <view class='time' hidden='{{relts}}'>
+      <view class='left'>
+        <view class='zuo'>
+          <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange" class='time-yi'>
+            <view class='date-yi'>{{time}}</view>
+          </picker>
+        </view>
+        <text class='zhi'>至</text>
+
+        <view class='you'>
+          <picker mode="time" value="{{timeBox}}" start="00:00" end="23:59" bindchange="bindTimeChanges" class='time-er'>
+            <view class='you-sj-er'>{{timeBox}}</view>
+          </picker>
+        </view>
+      </view>
+      <view class='anniu'>
+        <button class='chongz' bindtap='timecz' >重置</button>
+        <button class='qued' bindtap='timequed'>确定</button>
+      </view>
+    </view>
+    <view class='conten-li' >
+      <scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;" 
+         class="list" bindscrolltolower="bindDownLoad" bindscrolltoupper="topLoad"  bindscroll="scroll">
+        <view class='content-li-yi' wx:for="{{items}}" wx:key="item">
+          <view class='content-li-left'>
+            <text class='li-left-site'>{{item.address}}</text>
+            <text class='li-left-time'>充电：{{item.chargingTime}}</text>
+            <text class='li-left-indet'>订单号：{{item.orderNumber}}</text>
+          </view>
+          <view class='content-li-right'>
+            <text class='li-right-text'>{{item.consumptionAmount}}元</text>
+          </view>
+        </view>
+        <!-- <view class='content-li-yi'>
+          <view class='content-li-left'>
+            <text class='li-left-site'>深圳市西乡固戍梧桐岛</text>
+            <text class='li-left-time'>充电：2018-06-01 12：13~14：13（120分钟）</text>
+            <text class='li-left-indet'>订单号：123456</text>
+          </view>
+          <view class='content-li-right'>
+            <text class='li-right-text'>5.00元</text>
+          </view>
+        </view> -->
+      </scroll-view>
+      <!-- <view>
+        <loading hidden="{{hidden}}" bindchange="loadingChange">
+          加载中...
+        </loading>
+      </view> -->
+    </view>
+  </view>
+</view>

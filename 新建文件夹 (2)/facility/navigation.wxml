@@ -1,0 +1,5 @@
+<!-- <map id="map"  scale="10" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" longitude="{{longitude}}" latitude="{{latitude}}" bindregionchange="regionchange" show-location style="width: 100%; height: 580px;"></map> -->
+
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}"
+scale="18"  style="width: 100%; height: 100%;" bindtap="click">
+</map>

@@ -1,0 +1,162 @@
+page{
+  display: block;
+  background: #F5F5F5;
+}
+.conten-harder{
+  height: 200rpx;
+  background: #FFFFFF;
+}
+.header-zuo{
+  width: 535rpx;
+  height: 200rpx;
+  float: left;
+}
+.header-text{
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  /* display: block; */
+  font-size: 46rpx;
+  color: #333333; 
+  margin:46rpx 0 0 30rpx;
+  width:400rpx;
+}
+.header-zuo-text{
+  width: 182rpx;
+  height: 32rpx;
+  background-image: linear-gradient(-180deg, #E7E6EE 0%, #C9C8D1 100%);
+  border-radius: 100rpx;
+  font-size: 18rpx;
+  color: #2B3440; 
+  padding: 4rpx 9.5rpx 3rpx 12.5rpx;
+  margin: 11rpx 0 46rpx 30rpx;
+}
+.header-you{
+  float: left;
+  height: 200rpx;
+  width: 215rpx;
+}
+.header-img{
+  width: 93rpx;
+  height: 93rpx;
+  display:block;
+  border:1rpx solid #2B3440;
+  float: left;
+  border-radius:100rpx;
+  margin: 54rpx 29rpx 53rpx  35rpx;
+  overflow: hidden
+}
+.herder-you-img{
+  width: 14rpx;
+  height: 28rpx;
+  display: block;
+  float: left;
+  margin: 88rpx 37rpx 87rpx 0;
+}
+.qianbao{
+  margin-top: 20rpx;
+  background: #FFFFFF;
+}
+.qianbao-yi{
+  height: 99rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.qianbao-yi-zuo{
+  float: left;
+}
+.qianbao-yi-img{
+  width: 48rpx;
+  height: 48rpx;
+  display:block;
+  float: left;
+  margin: 26rpx 0 0 38rpx;
+}
+.qianbao-yi-text{
+  font-size: 32rpx;
+  color: #333333;
+  float: left;
+  display: block;
+  line-height: 99rpx;
+  margin-left: 19rpx;
+}
+.qianbao-yi-jq{
+  float: right;
+  display: block;
+  margin-right: 36rpx;
+}
+.qianchong-you-text{
+  font-size: 28rpx;
+  color: #969FA9;
+  line-height: 99rpx;
+}
+.qianbao-you-img{
+  width: 14rpx;
+  height: 28rpx;
+  display: block;
+  float: right;
+  margin: 35rpx 0 36.5rpx 14rpx;
+}
+
+.shezhi{
+  height: 199rpx;
+  margin-top: 20rpx;
+  background: #FFFFFF;
+}
+.shezhi-yi{
+  height: 99rpx;
+  border-bottom: 1rpx solid #ECECEC;
+  display: block;
+}
+.shezhi-yi-zuo{
+  float: left;
+}
+.shezhi-yi-img{
+  width: 48rpx;
+  height: 48rpx;
+  display:block;
+  float: left;
+  margin: 26rpx 0 0 38rpx;
+}
+.shezhi-yi-text{
+  font-size: 32rpx;
+  color: #333333;
+  float: left;
+  display: block;
+  line-height: 99rpx;
+  margin-left: 19rpx;
+}
+.shezhi-yi-jq{
+  float: right;
+  display: block;
+  margin-right: 36rpx;
+}
+.shezhi-you-text{
+  font-size: 28rpx;
+  color: #969FA9;
+  line-height: 99rpx;
+}
+.shezhi-you-img{
+  width: 14rpx;
+  height: 28rpx;
+  display: block;
+  float: right;
+  margin: 35rpx 0 36.5rpx 14rpx;
+}
+
+.guanyu{
+  margin-top: 20rpx;
+  background: #FFFFFF;
+  height: 100rpx;
+}
+
+
+/*广告*/
+.guangkao{
+  display:none;
+  margin:109rpx 30rpx 38rpx 30rpx;
+  width: 690rpx;
+  height: 200rpx;
+  border: 1px solid #ECECEC
+}

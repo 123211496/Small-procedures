@@ -1,0 +1,26 @@
+/* pages/grzx/settings.wxss */
+page{
+  background: #F5F5F5
+}
+.mian{
+  width: 750rpx;
+  height: 88rpx;
+  background: #ffffff;
+  margin-top: 20rpx;
+}
+.mian-text{
+  font-size: 28rpx;
+  color: #011111;
+  float: left;
+  display: block;
+  line-height: 88rpx;
+  margin-left: 34rpx;
+}
+.mian-img{
+  width: 102rpx;
+  height: 62rpx;
+  display: block;
+  float: right;
+  margin-right: 18rpx;
+  margin-top: 13rpx;
+}

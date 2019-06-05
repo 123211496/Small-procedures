@@ -1,0 +1,13 @@
+<!--pages/city/city-list.wxml-->
+<view class='container'>
+  <view class='header'>
+    <view class='content-zhong'>
+      <image src='../../img/nav_search.png' class='search' />
+      <!-- <text class='lanlu'></text> -->
+      <input class='input' type='text' placeholder='输入地址查看充电桩' value='{{keyword}}' bindinput="getCode" bindconfirm="binviewxiao" />
+    </view>
+  </view>
+  <view class='content' wx:for="{{itemb}}" wx:key="item">
+     <text class='content-text' bindtap='binviename' data-name="{{item.name}}">{{item.name}}</text>
+  </view>
+</view>

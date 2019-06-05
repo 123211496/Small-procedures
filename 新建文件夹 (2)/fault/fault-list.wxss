@@ -1,0 +1,35 @@
+page{
+  display: block;
+  background-color: #FFFFFF;
+}
+.red{
+  width: 186rpx;
+  height: 186rpx;
+  display: block;
+  margin: 116rpx 282rpx 0 282rpx
+}
+.yexy{
+  margin-top: 31rpx;
+  display:block;
+  font-size: 40rpx;
+  color: #000000;
+  text-align: center;
+}
+.wenben{
+  display:block;
+  width:576rpx;
+  height: 80rpx;
+  font-size: 28rpx;
+  color: #888888;
+  text-align: center;
+  margin: auto;
+  margin-top: 30rpx
+}
+.button{
+  margin-top: 73rpx;
+  width: 560rpx;
+  height: 94rpx;
+  border-radius: 100rpx;
+  background-color: #15CD80;
+  color: #FFFFFF ;
+}

@@ -1,0 +1,159 @@
+/* pages/grzx/information.wxss */
+
+page {
+  background: #f5f5f5;
+}
+
+.header {
+  margin-top: 20rpx;
+  height: 160rpx;
+  background: #fff;
+}
+
+.header-text {
+  font-size: 28rpx;
+  color: #333;
+  line-height: 160rpx;
+  display: block;
+  margin-left: 29rpx;
+  float: left;
+}
+
+.header-img {
+  float: right;
+  height: 160rpx;
+  width: 215rpx;
+}
+
+.header-img-box {
+  width: 93rpx;
+  height: 93rpx;
+  display: block;
+  border: 1rpx solid #ececec;
+  border-radius: 100rpx;
+  float: left;
+  margin: 34rpx 29rpx 30rpx 38rpx;
+}
+
+.header-img-list {
+  width: 14rpx;
+  height: 28rpx;
+  display: block;
+  float: left;
+  margin-top: 68rpx;
+}
+
+.box {
+  margin-top: 20rpx;
+  height: 358rpx;
+  background: #fff;
+}
+
+.box-yi {
+  height: 88rpx;
+  border-bottom: 1rpx solid #ececec;
+}
+
+.boxname {
+  display: block;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-size: 28rpx;
+  color: #333;
+  float: left;
+  margin-left: 29rpx;
+}
+
+.boxName {
+  display: block;
+  height: 88rpx;
+  text-align: right;
+  line-height: 88rpx;
+  font-size: 28rpx;
+  color: #969fa9;
+  float: right;
+  
+}
+
+.list-bt {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 24rpx;
+  color: #7a7a7a;
+  margin-left: 29rpx;
+}
+
+.list-name {
+  background: #fff;
+}
+
+.listName {
+  width: 176rpx;
+  float: right;
+}
+
+.list-text {
+  float: left;
+  font-size: 28rpx;
+  color: #969fa9;
+  line-height: 88rpx;
+  margin-left: 32rpx;
+}
+
+.list-img {
+  width: 14rpx;
+  height: 18rpx;
+  display: block;
+  float: left;
+  margin-top: 37.5rpx;
+  margin-left: 14rpx;
+}
+
+.button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 0;
+  height: 94rpx;
+  display: block;
+  background: #15cd80;
+  font-size: 32rpx;
+  color: #fff;
+  line-height: 94rpx;
+}
+
+.name {
+  width: 220rpx;
+  display: inline-block;
+  text-align: right;
+  padding-right: 32rpx;
+}
+
+.zhang {
+  width: 250rpx;
+  text-align: right;
+  padding-right: 32rpx;
+}
+
+.gea {
+  width: 110rpx;
+  text-align: right;
+  padding-right: 32rpx;
+}
+
+.opan {
+  width: 300rpx;
+  text-align: right;
+  padding-right: 32rpx;
+}
+
+.ming {
+  width: 190rpx;
+  text-align: right;
+  padding-right: 32rpx;
+}
+
+.zheng {
+  width: 300rpx;
+  margin-right: 32rpx;
+}

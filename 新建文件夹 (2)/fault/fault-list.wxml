@@ -1,0 +1,8 @@
+<view class='container'>
+<view>
+     <image src='../../img/App_ Image_success.png' class='red'/>
+     <text class='yexy'>反馈成功</text>
+     <text class='wenben'>感谢您的反馈我们会尽快安排人员跟进处理，为您提供更好的服务</text>
+     <button class='button' bindtap='button'>关闭</button>
+</view>
+</view>

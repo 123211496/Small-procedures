@@ -1,0 +1,23 @@
+<view class='container'>
+     <!--没有电卡-->
+     <view class='absenceBox' hidden='{{resty}}'>
+         <image class='absence' src='../../img/default_card.png'></image>
+         <text class='absence-text'>你还没有绑定电卡</text>
+     </view>
+     <!--没有电卡-->
+     <view class='have' hidden='{{resy}}'>
+         <text class='have-bt'>我的电卡</text>
+         <view class='have-img' style='background-image:url(http://admin.gzyunku.com/OvalMask.png)'  wx:for="{{items}}" wx:key="item" >
+            <view class='have-left'>
+               <text class='have-left-bt'>云酷·充电电卡</text>
+               <text class='have-left-time'>绑定日期：{{time}} </text>
+               <text class='have-left-id'>ID：{{item.cardNumber}}</text>
+            </view>
+            <view class='have-right'>
+               <text class='have-right-bt'>已绑定</text>
+               <view class='have-right-bt' bindtap='jiebang' data-id="{{item.id}}">解绑电卡</view>
+            </view>
+         </view>
+     </view>
+     <button class='button' bindtap='tianjia'>添加电卡</button>
+</view>
