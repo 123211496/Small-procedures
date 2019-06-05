@@ -1,0 +1,61 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/grzx/calorie",
+    "pages/index/index-list",
+    "pages/grzx/calorie-list",
+    "pages/wdqb/agreement",
+    "pages/grzx/information",
+    "pages/wdqb/detail",
+    "pages/saoma/saoma-cd",
+    "pages/grzx/grzx",
+    "pages/found/found",
+    "pages/grzx/record",
+    "pages/login/login",
+    "pages/saoma/saoma-js",
+    "pages/saoma/saoma-zw",
+    "pages/saoma/saoma-js-list",
+    "pages/login/logs",
+    "pages/fault/fault",
+    "pages/wdqb/wdqb-cz",
+    "pages/about/about-list",
+    "pages/about/about",
+    "pages/help/help",
+    "pages/help/inquire",
+    "pages/help/stop",
+    "pages/site/site-gl",
+    "pages/city/city",
+    "pages/city/city-list",
+    "pages/yuek/yuek-xun",
+    "pages/help/device",
+    "pages/site/site",
+    "pages/wdqb/wdqb",
+    "pages/facility/facility",
+    "pages/facility/navigation",
+    "pages/ports/ports-hour",
+    "pages/site/site-tj",
+    "pages/help/recharge",
+    "pages/ports/ports",
+    "pages/ports/ports-degree",
+    "pages/yuek/yuek",
+    "pages/grzx/settings",
+    "pages/found/found-list",
+    "pages/help/picture",
+    "pages/fault/fault-list"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "navigationBarTitleText": "Wechat",
+    "navigationBarTextStyle":"black"
+  },
+  "usingComponents": {
+    "map-route": "plugin://myPlugin/mapRoute"
+  },
+  "plugins":{
+    "myPlugin":{
+      "version":"1.0.6",
+      "provider":"wx5bc2ac602a747594"
+    }
+  }
+}

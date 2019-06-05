@@ -1,0 +1,48 @@
+/* pages/index/index-list.wxss */
+
+.content-bt{
+  height: 45rpx;
+  line-height: 45rpx;
+  font-size: 32rpx;
+  color: #191D21; 
+  display: block;
+  text-align: center;
+  margin-top: 53rpx;
+}
+.contentBox{
+  display:block;
+  width: 690rpx;
+  margin: auto;
+  margin-top: 32rpx;
+  overflow: auto
+}
+.contentBox-bt{
+  font-size: 30rpx;
+  color: #5A626D;
+  display: block
+}
+.conrentBox-nr{
+  display: block;
+  font-size: 30rpx;
+  color: #5A626D;
+  margin-top: 10rpx;
+  height:100%;
+  margin-bottom: 120rpx;
+}
+.text{
+  display: block;
+  margin-top: 10rpx;
+}
+.button{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: block;
+  height: 100rpx;
+  background:#15CD80;
+  color:  #FFFFFF;
+  font-size: 32rpx;
+  border-radius: 0;
+  width: 100%;
+  line-height: 100rpx;
+}
